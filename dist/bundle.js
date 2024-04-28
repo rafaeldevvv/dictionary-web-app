@@ -16,7 +16,7 @@
   \*********************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-eval("/* provided dependency */ var React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nfunction App() {\n  return /*#__PURE__*/React.createElement(\"div\", null, /*#__PURE__*/React.createElement(\"h1\", null, \"Dictionary\"));\n}\nexports[\"default\"] = App;\n\n//# sourceURL=webpack://dictionary-web-app/./src/App.tsx?");
+eval("/* provided dependency */ var React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nfunction App() {\n  return /*#__PURE__*/React.createElement(\"div\", null, /*#__PURE__*/React.createElement(\"header\", null, /*#__PURE__*/React.createElement(\"div\", null)), /*#__PURE__*/React.createElement(\"main\", null, /*#__PURE__*/React.createElement(\"h1\", null, \"Dictionary\"), /*#__PURE__*/React.createElement(\"p\", null, \"Well, let's build a dictionary!\")));\n}\nexports[\"default\"] = App;\n\n//# sourceURL=webpack://dictionary-web-app/./src/App.tsx?");
 
 /***/ }),
 

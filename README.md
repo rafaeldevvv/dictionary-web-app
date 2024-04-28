@@ -15,3 +15,9 @@
 - [typescript-eslint](https://typescript-eslint.io/getting-started/)
 - [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react#list-of-supported-rules)
 - [Reddit - Is eslint-plugin-react is unnecessary if i use @typescript-eslint/eslint-plugin and eslint-plugin-react-hooks?](https://www.reddit.com/r/reactjs/comments/1877xd3/is_eslintpluginreact_is_unnecessary_if_i_use/)
+- [rel=noreferrer](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel/noreferrer)
+- [Canvas - Color Wheel](https://www.canva.com/colors/color-wheel/)
+- [Hex to Hsl](https://htmlcolors.com/hex-to-hsl)
+- [Thinking in React](https://react.dev/learn/thinking-in-react)
+- [tw-colors npm package](https://www.npmjs.com/package/tw-colors)
+- [A scalable naming convention for style-variables](https://medium.com/digio-australia/a-scalable-naming-convention-for-style-variables-6363b916432a) - Naming convention for the themes

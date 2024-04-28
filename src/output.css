@@ -1,0 +1,47 @@
+@tailiwnd base;
+
+.bg-background{
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--twc-background) / var(--twc-background-opacity, var(--tw-bg-opacity)));
+}
+
+.text-contrast-high{
+  --tw-text-opacity: 1;
+  color: hsl(var(--twc-contrast-high) / var(--twc-contrast-high-opacity, var(--tw-text-opacity)));
+}
+
+.text-contrast-normal{
+  --tw-text-opacity: 1;
+  color: hsl(var(--twc-contrast-normal) / var(--twc-contrast-normal-opacity, var(--tw-text-opacity)));
+}
+
+.light,[data-theme="light"]{
+  --twc-background: 0 100% 100%;
+  --twc-primary: 16 80% 50%;
+  --twc-contrast-lower: 0 0% 96%;
+  --twc-contrast-low: 0 0% 66%;
+  --twc-contrast-normal: 0 0% 57%;
+  --twc-contrast-high: 0 0% 0%;
+}
+
+.dark,[data-theme="dark"]{
+  --twc-background: 0 0% 2%;
+  --twc-primary: 51 100% 50%;
+  --twc-contrast-lower: 0 0% 12%;
+  --twc-contrast-low: 0 0% 26%;
+  --twc-contrast-normal: 0 0% 54%;
+  --twc-contrast-high: 0 0% 100%;
+}
+
+/* remove animations for people who've turned them off */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+   *::before,
+   *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

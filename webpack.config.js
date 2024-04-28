@@ -1,5 +1,6 @@
 const path = require("path");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const {ProvidePlugin} = require('webpack')
 
 const NODE_ENV = process.env.NODE_ENV;
 
@@ -32,5 +33,5 @@ module.exports = {
          '.tsx',
       ]
    },
-   plugins: [new HtmlWebpackPlugin({ template: './src/index.html' })],
+   plugins: [new HtmlWebpackPlugin({ template: './src/index.html' }), new ProvidePlugin({React: 'react'})],
 }

@@ -1,6 +1,6 @@
-const path = require("path");
+const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const {ProvidePlugin} = require('webpack')
+const { ProvidePlugin } = require('webpack');
 
 const NODE_ENV = process.env.NODE_ENV;
 
@@ -21,17 +21,21 @@ module.exports = {
          },
          {
             test: /\.css$/,
-            use: ['style-loader', 'css-loader', 'postcss-loader']
-         }
-      ]
+            use: ['style-loader', 'css-loader', 'postcss-loader'],
+         },
+         {
+            test: /\.(woff|woff2|eot|ttf|otf)$/i,
+            type: 'asset/resource',
+         },
+      ],
    },
    resolve: {
-      extensions: [
-         '.js',
-         '.jsx',
-         '.ts',
-         '.tsx',
-      ]
+      extensions: ['.js', '.jsx', '.ts', '.tsx'],
    },
-   plugins: [new HtmlWebpackPlugin({ template: './src/index.html' }), new ProvidePlugin({React: 'react'})],
-}
+   plugins: [
+      new HtmlWebpackPlugin({ template: './src/index.html' }),
+      new ProvidePlugin({
+         React: 'react',
+      }),
+   ],
+};

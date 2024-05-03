@@ -1,10 +1,52 @@
-@tailiwnd base;
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+   font-family: 'Roboto';
+   src: url('./assets/fonts/sans/Roboto-Regular.ttf');
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Roboto';
+   src: url('./assets/fonts/sans/Roboto-Italic.ttf');
+   font-style: italic;
+}
+
+@font-face {
+   font-family: 'InstrumentSerif';
+   src: url('./assets/fonts/serif/InstrumentSerif-Regular.ttf');
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'InstrumentSerif';
+   src: url('./assets/fonts/serif/InstrumentSerif-Italic.ttf');
+   font-style: italic;
+}
+
+@font-face {
+   font-family: 'CedarvilleCursive';
+   src: url('./assets/fonts/cursive/CedarvilleCursive-Regular.ttf');
+}
+
+@font-face {
+   font-family: 'VT323';
+   src: url('./assets/fonts/mono/VT323-Regular.ttf');
+}
+
+:root {
+   --ff-sans: 'Roboto';
+   --ff-serif: 'InstrumentSerif';
+   --ff-mono: 'VT323';
+   --ff-cursive: 'CedarvilleCursive';
+
+   --ff-current: var(--ff-sans);
+}
+
 /* remove animations for people who've turned them off */
 @media (prefers-reduced-motion: reduce) {
-
    *,
    *::before,
    *::after {

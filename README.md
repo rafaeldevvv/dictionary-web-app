@@ -1,6 +1,37 @@
 # Dictionary Web App
 
+This is a rather simple dictionary web app powered by [the Free Dictionary API](https://dictionaryapi.dev)
+
 ## Table of Contents
+- [Overview](#overview)
+   - [Screenshots](#screenshots)
+   - [Links](#links)
+   - [Tools Used](#tools-used)
+- [Process]
+   - [Useful Resources](#useful-resources)
+- [Author](#author)
+- [Donate](#donate)
+
+## Overview
+
+### Screenshots
+
+### Links
+
+- Live Site: (_soon_)
+
+### Tools Used
+
+- [React](https://react.dev)
+- [TypeScript](https://typescriptlang.org)
+- [ESLint](https://eslint.org)
+- [Webpack](https://webpack.js.org)
+- [tailwindcss](https://tailwindcss.com)
+- [Prettier](https://prettier.io)
+- [babel](https://babeljs.io)
+- [Font Awesome icons in React](https://docs.fontawesome.com/web/)
+
+## Process
 
 ### Useful Resources
 
@@ -33,3 +64,15 @@
 -  [Cambridge English Dictionary](https://dictionary.cambridge.org/us/dictionary/english/) - I used the word definitions pages as a reference.
 -  [Online JSON Validator](https://jsonlint.com)
 - [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/?fcolor=BC000B&bcolor=FFFFFF)
+
+## Author
+
+The name's Rafael Maia. You can find me on [Instagram](https://www.instagram.com/rafaeldevvv), [X](https://www.twitter.com/rafaeldevvv), and [Linkedin](https://www.linkedin.com/in/rafael-maia-b69662263). Or you can send me an email [rafaeldeveloperr@gmail.com](mailto:rafaeldeveloperr@gmail.com).
+
+I am a freelancer, so you can also find me on [Fiverr](https://www.fiverr.com/rafael787) and [Upwork](https://www.upwork.com/freelancers/~01a4dc9692c96839dc).
+
+## Donate
+
+Also, if you liked this project, consider [buying me a coffee](https://www.buymeacoffee.com/rafael.maia) ☕. I'd be grateful if you could support my work 😁👍❤!
+
+You could also consider [helping the Free Dictionary API](https://dictionaryapi.dev/#:~:text=Dictionary%20API%20is%E2%80%94and%20always%20will%20be%E2%80%94free.%20Our%20mission%20is%20to%20provide%20users%20with%20an%20API%20that%20they%20can%20use%20to%20build%20a%20game%2C%20learning%20application%2C%20or%20next%2Dgeneration%20speech%20and%20text%20technology.%20Your%20donation%20directly%20helps%20the%20development%20of%20Dictionary%20API%20and%20keeps%20the%20server%20running) because your donation directly helps the development of Dictionary API and keeps the server running.

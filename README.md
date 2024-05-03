@@ -7,7 +7,7 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
    - [Screenshots](#screenshots)
    - [Links](#links)
    - [Tools Used](#tools-used)
-- [Process]
+- [Process](#process)
    - [Useful Resources](#useful-resources)
 - [Author](#author)
 - [Donate](#donate)

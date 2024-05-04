@@ -66,6 +66,8 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 -  [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/?fcolor=BC000B&bcolor=FFFFFF)
 -  [\[BUG\] npm ERR! enoent ENOENT: no such file or directory, lstat 'C:\Users\userName\AppData\Roaming\npm' #6971](https://github.com/npm/cli/issues/6971)
 -  [Windows git "warning: LF will be replaced by CRLF", is that warning tail backward?](https://stackoverflow.com/questions/17628305/windows-git-warning-lf-will-be-replaced-by-crlf-is-that-warning-tail-backwar)
+- [Combining multiple git repositories](https://stackoverflow.com/questions/277029/combining-multiple-git-repositories)
+- [Error "Your push would publish a private email address"](https://stackoverflow.com/questions/43863522/error-your-push-would-publish-a-private-email-address)
 
 ## Author
 

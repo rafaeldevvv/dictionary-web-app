@@ -7,7 +7,7 @@ export default function Footer() {
             Coded by{' '}
             <ExternalLink
                href="https://rafaeldevvv.github.io/portfolio"
-               className="visited:text-primary-visited text-primary underline hover:no-underline focus-visible:no-underline"
+               className="text-primary underline visited:text-primary-visited hover:no-underline focus-visible:no-underline"
             >
                Rafael Maia
             </ExternalLink>
@@ -16,7 +16,7 @@ export default function Footer() {
             Powered by the{' '}
             <ExternalLink
                href="https://dictionaryapi.dev"
-               className="visited:text-primary-visited text-primary underline hover:no-underline focus-visible:no-underline"
+               className="text-primary underline visited:text-primary-visited hover:no-underline focus-visible:no-underline"
             >
                Free Dictionary API
             </ExternalLink>

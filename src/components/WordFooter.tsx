@@ -13,7 +13,7 @@ export default function WordFooter({ word }: { word: Word }) {
                   {word.sourceUrls.map((s) => (
                      <li key={s}>
                         <ExternalLink
-                           className="visited:text-primary-visited break-words text-primary underline hover:no-underline focus-visible:no-underline"
+                           className="break-words text-primary underline visited:text-primary-visited hover:no-underline focus-visible:no-underline"
                            href={s}
                         >
                            {s}
@@ -28,7 +28,7 @@ export default function WordFooter({ word }: { word: Word }) {
                License:{' '}
                <ExternalLink
                   href={word.license.url}
-                  className="visited:text-primary-visited text-primary underline hover:no-underline focus-visible:no-underline"
+                  className="text-primary underline visited:text-primary-visited hover:no-underline focus-visible:no-underline"
                >
                   {word.license.name}
                </ExternalLink>

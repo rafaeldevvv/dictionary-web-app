@@ -3,14 +3,15 @@
 This is a rather simple dictionary web app powered by [the Free Dictionary API](https://dictionaryapi.dev)
 
 ## Table of Contents
-- [Overview](#overview)
-   - [Screenshots](#screenshots)
-   - [Links](#links)
-   - [Tools Used](#tools-used)
-- [Process](#process)
-   - [Useful Resources](#useful-resources)
-- [Author](#author)
-- [Donate](#donate)
+
+-  [Overview](#overview)
+   -  [Screenshots](#screenshots)
+   -  [Links](#links)
+   -  [Tools Used](#tools-used)
+-  [Process](#process)
+   -  [Useful Resources](#useful-resources)
+-  [Author](#author)
+-  [Donate](#donate)
 
 ## Overview
 
@@ -18,18 +19,17 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 
 ### Links
 
-- Live Site: (_soon_)
+-  Live Site: (_soon_)
 
 ### Tools Used
 
-- [React](https://react.dev)
-- [TypeScript](https://typescriptlang.org)
-- [ESLint](https://eslint.org)
-- [Webpack](https://webpack.js.org)
-- [tailwindcss](https://tailwindcss.com)
-- [Prettier](https://prettier.io)
-- [babel](https://babeljs.io)
-- [Font Awesome icons in React](https://docs.fontawesome.com/web/)
+-  [next.js](https://nextjs.org)
+-  [React](https://react.dev)
+-  [TypeScript](https://typescriptlang.org)
+-  [ESLint](https://eslint.org)
+-  [tailwindcss](https://tailwindcss.com)
+-  [Prettier](https://prettier.io)
+-  [Font Awesome icons in React](https://docs.fontawesome.com/web/)
 
 ## Process
 
@@ -63,7 +63,9 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 -  [Prettier Docs](https://prettier.io/docs/en/)
 -  [Cambridge English Dictionary](https://dictionary.cambridge.org/us/dictionary/english/) - I used the word definitions pages as a reference.
 -  [Online JSON Validator](https://jsonlint.com)
-- [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/?fcolor=BC000B&bcolor=FFFFFF)
+-  [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/?fcolor=BC000B&bcolor=FFFFFF)
+-  [\[BUG\] npm ERR! enoent ENOENT: no such file or directory, lstat 'C:\Users\userName\AppData\Roaming\npm' #6971](https://github.com/npm/cli/issues/6971)
+-  [Windows git "warning: LF will be replaced by CRLF", is that warning tail backward?](https://stackoverflow.com/questions/17628305/windows-git-warning-lf-will-be-replaced-by-crlf-is-that-warning-tail-backwar)
 
 ## Author
 

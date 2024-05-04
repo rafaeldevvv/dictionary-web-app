@@ -1,70 +1,40 @@
 {
-   "name": "dictionary-web-app",
-   "version": "1.0.0",
-   "description": "A dictionary app to look up words",
-   "private": true,
-   "main": "index.js",
-   "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "lint": "npx eslint ./",
-      "build": "npx tailwindcss -i ./src/input.css -o ./output.css && npx webpack --node-env production",
-      "build-dev": "npx tailwindcss -i ./src/input.css -o ./src/output.css && npx webpack --node-env development",
-      "format": "npx prettier ./src --write"
-   },
-   "repository": {
-      "type": "git",
-      "url": "git+https://github.com/rafaeldevvv/dictionary-web-app.git"
-   },
-   "keywords": [
-      "html",
-      "css",
-      "typescript",
-      "tailwindcss",
-      "react",
-      "webpack",
-      "postcss",
-      "eslint"
-   ],
-   "author": "Rafael Maia",
-   "license": "MIT",
-   "bugs": {
-      "url": "https://github.com/rafaeldevvv/dictionary-web-app/issues"
-   },
-   "homepage": "https://github.com/rafaeldevvv/dictionary-web-app#readme",
-   "devDependencies": {
-      "@babel/core": "^7.24.4",
-      "@babel/preset-env": "^7.24.4",
-      "@babel/preset-react": "^7.24.1",
-      "@types/react": "^18.3.1",
-      "@types/react-dom": "^18.3.0",
-      "@types/webpack": "^5.28.5",
-      "@typescript-eslint/eslint-plugin": "^7.7.1",
-      "@typescript-eslint/parser": "^7.7.1",
-      "autoprefixer": "^10.4.19",
-      "babel-loader": "^9.1.3",
-      "css-loader": "^7.1.1",
-      "eslint": "^8.57.0",
-      "eslint-plugin-jsx-a11y": "^6.8.0",
-      "eslint-plugin-react": "^7.34.1",
-      "html-webpack-plugin": "^5.6.0",
-      "postcss": "^8.4.38",
-      "postcss-loader": "^8.1.1",
-      "prettier": "^3.2.5",
-      "prettier-plugin-tailwindcss": "^0.5.14",
-      "style-loader": "^4.0.0",
-      "tailwindcss": "^3.4.3",
-      "ts-loader": "^9.5.1",
-      "tw-colors": "^3.3.1",
-      "webpack": "^5.91.0",
-      "webpack-cli": "^5.1.4"
-   },
-   "dependencies": {
-      "@fortawesome/fontawesome-svg-core": "^6.5.2",
-      "@fortawesome/free-brands-svg-icons": "^6.5.2",
-      "@fortawesome/free-regular-svg-icons": "^6.5.2",
-      "@fortawesome/free-solid-svg-icons": "^6.5.2",
-      "@fortawesome/react-fontawesome": "^0.2.0",
-      "react": "^18.3.1",
-      "react-dom": "^18.3.1"
-   }
+  "name": "dictionary-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "npx prettier ./src --write"
+  },
+  "dependencies": {
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "14.2.3",
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/free-regular-svg-icons": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "@typescript-eslint/eslint-plugin": "^7.7.1",
+    "@typescript-eslint/parser": "^7.7.1",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-react": "^7.34.1",
+    "postcss-loader": "^8.1.1",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.14",
+    "tw-colors": "^3.3.1"
+  }
 }

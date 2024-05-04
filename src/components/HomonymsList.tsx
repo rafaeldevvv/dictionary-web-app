@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function HomonymsList({
    areSynonyms,
    words,
@@ -13,9 +15,9 @@ export default function HomonymsList({
          <ul className="flex flex-wrap gap-2">
             {words.map((w, i) => (
                <li key={`${w}-${i}`}>
-                  <a
+                  <Link
                      href={
-                        'https://api.dictionaryapi.dev/api/v2/entries/en/' + w
+                        '/' + w
                      }
                      className={`inline-block rounded-xl border border-solid border-contrast-normal px-2 py-0.5 transition-colors hover:text-background focus-visible:text-background ${
                         areSynonyms
@@ -24,7 +26,7 @@ export default function HomonymsList({
                      }`}
                   >
                      {w}
-                  </a>
+                  </Link>
                </li>
             ))}
          </ul>

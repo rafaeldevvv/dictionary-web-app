@@ -1,9 +1,8 @@
-import Header from './components/Header';
-import './output.css';
-import WordForm from './components/WordForm';
-import Word from './components/Word';
-import type { Word as IWord } from './types';
-import Footer from './components/Footer';
+import Header from './Header';
+import WordForm from './WordForm';
+import Word from './Word';
+import type { Word as IWord } from '@/ts/types';
+import Footer from './Footer';
 
 const testWords = [
    {

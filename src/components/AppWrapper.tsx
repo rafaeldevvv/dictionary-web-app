@@ -12,9 +12,9 @@ export default function AppWrapper({
     return (
         <div
             data-theme="light"
-            className="min-h-screen bg-background font-sans"
+            className="bg-background font-sans"
         >
-            <div className="container grid h-full grid-rows-[min-content_1fr_min-content]">
+            <div className="container grid min-h-screen grid-rows-[min-content_1fr_min-content]">
                 <Header />
                 <main>
                     <WordForm word={''} onSubmit={() => {}} />

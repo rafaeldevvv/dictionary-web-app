@@ -30,8 +30,20 @@ const instrument = Instrument_Serif({
 });
 
 export const metadata: Metadata = {
-    title: 'Dictionary Web App',
+    title: {
+        template: '%s | Dictionary Web App',
+        default: 'Dictionary Web App',
+    },
     description: 'A dictionary app to look up words',
+    keywords: ['language', 'word', 'dictionary', 'english'],
+    creator: 'Rafael Maia',
+    publisher: 'Rafael Maia',
+    authors: [
+        { name: 'Rafael', url: 'https://rafaeldevvv.github.io/portfolio' },
+    ],
+    generator: 'Next.js',
+    applicationName: 'Dictionary Web App',
+    category: 'language',
 };
 
 export default function RootLayout({

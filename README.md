@@ -68,6 +68,7 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 -  [Windows git "warning: LF will be replaced by CRLF", is that warning tail backward?](https://stackoverflow.com/questions/17628305/windows-git-warning-lf-will-be-replaced-by-crlf-is-that-warning-tail-backwar)
 - [Combining multiple git repositories](https://stackoverflow.com/questions/277029/combining-multiple-git-repositories)
 - [Error "Your push would publish a private email address"](https://stackoverflow.com/questions/43863522/error-your-push-would-publish-a-private-email-address)
+- [Technical reason behind height: 100vh (working) vs min-height: 100vh (not working) for body?](https://stackoverflow.com/questions/49395367/technical-reason-behind-height-100vh-working-vs-min-height-100vh-not-workin)
 
 ## Author
 

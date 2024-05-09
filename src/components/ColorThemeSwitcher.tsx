@@ -1,7 +1,8 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMoon } from '@fortawesome/free-solid-svg-icons';
+import { Themes } from '@/ts/types';
 
-export default function ColorThemeSwitcher() {
+export default function ColorThemeSwitcher({theme}: {theme: Themes}) {
     return (
         <button
             aria-label="Switch to Dark Mode"

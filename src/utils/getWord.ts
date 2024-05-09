@@ -1,4 +1,4 @@
-import type { Word } from '../types';
+import type { Word } from '@/ts/types';
 
 export default async function getWord(word: string): Promise<Word[]> {
     const res = await fetch(

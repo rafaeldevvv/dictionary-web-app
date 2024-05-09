@@ -1,4 +1,14 @@
 export type Themes = 'dark' | 'light';
+export type FontFamilies = 'sans' | 'serif' | 'mono' | 'cursive';
+
+export type FontFamiliesClassnames = {
+    [Family in FontFamilies]: string;
+}
+
+export interface DictionaryWebAppData {
+    font: FontFamilies;
+    theme: Themes;
+}
 
 export interface Word {
     word: string;

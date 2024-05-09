@@ -1,4 +1,4 @@
-import type { Word } from '../types';
+import type { Word } from '@/ts/types';
 
 export default function getPhoneticInfo(word: Word): {
     phonetic?: string;

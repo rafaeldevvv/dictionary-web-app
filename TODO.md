@@ -1,0 +1,2 @@
+- Test font menu accessibility with a screen reader
+- Add images from [LoremFlickr](https://loremflickr.com)

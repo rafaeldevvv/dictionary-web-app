@@ -75,6 +75,7 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 - [TailwindCSS Docs](https://tailwindcss.com/docs/installation)
 - [LoremFlickr](https://loremflickr.com)
 - [Control focus with tabindex](https://web.dev/articles/control-focus-with-tabindex)
+- [Next.js App Router Docs](https://nextjs.org/docs/app)
 
 ## Author
 

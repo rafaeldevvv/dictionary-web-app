@@ -36,7 +36,7 @@ const config: Config = {
               antonym: 'hsl(356, 100%, 37%)',
            },
            dark: {
-              background: 'hsl(0 0% 2%)',
+              background: 'hsl(0 0% 5%)',
               primary: 'hsl(51, 100%, 50%)',
               'primary-visited': 'hsl(51, 100%, 60%)',
               'contrast-lower': 'hsl(0 0% 12%)',

@@ -32,7 +32,7 @@ export default function Header({
                     baseLabel='Font Family'
                 />
                 <span className="text-contrast-low">|</span>
-                <ColorThemeSwitcher theme={theme} />
+                <ColorThemeSwitcher theme={theme} onChange={onChangeTheme} />
             </div>
         </header>
     );

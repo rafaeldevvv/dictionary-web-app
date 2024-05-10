@@ -35,7 +35,7 @@ export default function AppWrapper({
         <div
             data-theme={theme}
             className={classNames(
-                'bg-background text-contrast-high',
+                'bg-background text-contrast-high transition-colors',
                 fontFamiliesClassnames[font],
             )}
         >

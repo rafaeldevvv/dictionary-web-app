@@ -4,13 +4,16 @@ import type { DictionaryWebAppData } from '@/ts/types';
 
 const localStorageField = 'dictionary-web-app';
 
+const mql = matchMedia('(prefers-color-scheme: dark)');
+const dark = mql.matches;
+
 const localStorageData = localStorage.getItem(localStorageField);
 const data = (
     localStorageData
         ? JSON.parse(localStorageData)
         : {
               font: 'sans',
-              theme: 'light',
+              theme: dark ? 'dark' : 'light',
           }
 ) as DictionaryWebAppData;
 

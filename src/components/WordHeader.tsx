@@ -2,15 +2,41 @@ import type { Word } from '@/ts/types';
 import getPhoneticInfo from '../utils/getPhoneticInfo';
 import WordSpeaker from './WordSpeaker';
 
-export default function WordHeader({ word }: { word: Word }) {
+import { toWordsOrdinal } from 'number-to-words';
+
+export default function WordHeader({
+    word,
+    number,
+    headingId,
+}: {
+    word: Word;
+    number: number;
+    headingId: string;
+}) {
     const { phonetic, audio } = getPhoneticInfo(word);
 
     return (
         <header className="mb-6">
             <div>
-                <h1 className="mb-1 text-5xl text-contrast-high">
-                    {word.word}
-                </h1>
+                <div className='flex'>
+                    <h2
+                        className="mb-1 text-5xl text-contrast-high"
+                        id={headingId}
+                    >
+                        <a href={'#' + headingId} className="hover:underline">
+                            {word.word}{' '}
+                            <span className="sr-only">
+                                ({toWordsOrdinal(number)} Set of Definitions)
+                            </span>
+                        </a>
+                    </h2>
+                    <span
+                        className="ml-1 align-super text-sm font-bold text-primary"
+                        aria-hidden="true"
+                    >
+                        {number}
+                    </span>{' '}
+                </div>
                 <p className="flex items-center gap-x-2">
                     <span className="text-xl italic text-primary">
                         {phonetic}

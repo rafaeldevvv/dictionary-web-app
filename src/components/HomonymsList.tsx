@@ -16,7 +16,7 @@ export default function HomonymsList({
                 {words.map((w, i) => (
                     <li key={`${w}-${i}`}>
                         <Link
-                            href={'/' + w}
+                            href={'/' + encodeURIComponent(w)}
                             className={`inline-block rounded-xl border border-solid border-contrast-normal px-2 py-0.5 transition-colors hover:text-background focus-visible:text-background ${
                                 areSynonyms
                                     ? 'text-synonym hover:border-synonym hover:bg-synonym focus-visible:border-synonym focus-visible:bg-synonym'

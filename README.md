@@ -80,6 +80,8 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 - [Quickly generate your favicon from an image by uploading your image below. Download your favicon in the most up to date formats.](https://favicon.io/favicon-converter/)
 - [Convertio - File Converter](https://convertio.co/download/7840015b57aba6b84c0dad5e39bc81138e2326/) - Used it to convert from .png to .ico
 - [PIXELS to SVG - Pen by Shaw](https://codepen.io/shshaw/pen/XbxvNj)
+- [NPM Package: Number To Words](https://www.npmjs.com/package/number-to-words)
+- [Is it semantically correct in HTML to markup a list with only a single list item?](https://stackoverflow.com/questions/10834977/is-it-semantically-correct-in-html-to-markup-a-list-with-only-a-single-list-item)
 
 ## Author
 

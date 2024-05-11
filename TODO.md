@@ -1,8 +1,8 @@
 - Implement word page
     - Improve the heading thing
-    - Implement form
-    - Improve the layout thing
+- Error: Bad value for attribute aria-activedescendant on element ul: An ID must not be the empty string (DropdownMenu)
 - Change theme toggle label depending on active theme
+- Implement the speaker
 - Improve mobile responsiveness
 - Change font menu background color
 - Make color theme toggle circle black when dark mode

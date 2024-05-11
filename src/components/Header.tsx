@@ -1,5 +1,5 @@
 import DropdownMenu from './DropdownMenu';
-import ColorThemeSwitcher from './ColorThemeSwitcher';
+import ColorThemeToggle from './ColorThemeToggle';
 import { FontFamilies, FontFamiliesClassnames, Themes } from '@/ts/types';
 import Image from 'next/image';
 
@@ -38,7 +38,7 @@ export default function Header({
                     baseLabel="Font Family"
                 />
                 <span className="text-contrast-low">|</span>
-                <ColorThemeSwitcher theme={theme} onChange={onChangeTheme} />
+                <ColorThemeToggle theme={theme} onChange={onChangeTheme} />
             </div>
         </header>
     );

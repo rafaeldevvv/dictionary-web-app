@@ -75,6 +75,7 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 -   [Can't access ref.current using React and Typescript](https://stackoverflow.com/questions/72153186/cant-access-ref-current-using-react-and-typescript)
 -   [Next.js App Router Docs](https://nextjs.org/docs/app)
 -   [Is it semantically correct in HTML to markup a list with only a single list item?](https://stackoverflow.com/questions/10834977/is-it-semantically-correct-in-html-to-markup-a-list-with-only-a-single-list-item)
+ - [rejected master -> master (non-fast-forward)](https://stackoverflow.com/questions/11696295/rejected-master-master-non-fast-forward)
 
 #### Tools
 

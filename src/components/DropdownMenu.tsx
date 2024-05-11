@@ -310,7 +310,7 @@ export default function DropdownMenu<Option extends string>({
                 tabIndex={-1}
                 aria-label={baseLabel + ' options'}
                 aria-activedescendant={
-                    focusedOptionIndex ? options[focusedOptionIndex] : ''
+                    focusedOptionIndex !== null ? options[focusedOptionIndex] : undefined
                 }
                 className="absolute right-0 top-[130%] z-50 w-32 space-y-0.5 rounded-md bg-background p-1 drop-shadow-xl"
                 hidden={!open}

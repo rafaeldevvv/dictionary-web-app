@@ -1,5 +1,3 @@
-- Implement word page
-    - Improve the heading thing
 - Error: Bad value for attribute aria-activedescendant on element ul: An ID must not be the empty string (DropdownMenu)
 - Change theme toggle label depending on active theme
 - Implement the speaker

@@ -35,57 +35,74 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 
 ### Useful Resources
 
--   [How do I use React with Webpack?](https://reintech.io/blog/how-to-use-react-with-webpack)
--   [Dictionary API](https://dictionaryapi.dev)
--   [Dictionary web app | Frontend Mentor](https://www.frontendmentor.io/challenges/dictionary-web-app-h5wwnyuKFL) - A reference
+#### Docs
+
 -   [Webpack Docs](https://webpack.js.org/concepts/)
--   [How do I update Node.js?](https://stackoverflow.com/questions/8191459/how-do-i-update-node-js)
 -   [ESLint Docs](https://eslint.org/docs/)
--   [Define global variable with webpack](https://stackoverflow.com/questions/37656592/define-global-variable-with-webpack)
+-   [React Docs](https://react.dev/learn)
+-   [Thinking in React](https://react.dev/learn/thinking-in-react)
+-   [MDN Docs](https://developer.mozilla.org/en-US/docs/)
+-   [Font Awewsome Docs](https://docs.fontawesome.com/web/) - I used their svg icons with react.
+-   [Prettier Docs](https://prettier.io/docs/en/)
+-   [TypeScript Handbook/docs](https://www.typescriptlang.org/docs/handbook/)
+-   [TailwindCSS Docs](https://tailwindcss.com/docs/installation)
+-   [Dictionary API](https://dictionaryapi.dev)
+
+#### Packages
+
+-   [tw-colors npm package](https://www.npmjs.com/package/tw-colors)
 -   [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react#configuration)
 -   [typescript-eslint](https://typescript-eslint.io/getting-started/)
 -   [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react#list-of-supported-rules)
--   [Reddit - Is eslint-plugin-react is unnecessary if i use @typescript-eslint/eslint-plugin and eslint-plugin-react-hooks?](https://www.reddit.com/r/reactjs/comments/1877xd3/is_eslintpluginreact_is_unnecessary_if_i_use/)
--   [rel=noreferrer](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel/noreferrer)
--   [Canvas - Color Wheel](https://www.canva.com/colors/color-wheel/)
--   [Hex to Hsl](https://htmlcolors.com/hex-to-hsl)
--   [Thinking in React](https://react.dev/learn/thinking-in-react)
--   [tw-colors npm package](https://www.npmjs.com/package/tw-colors)
--   [A scalable naming convention for style-variables](https://medium.com/digio-australia/a-scalable-naming-convention-for-style-variables-6363b916432a) - Naming convention for the themes
--   [Google Fonts](https://fonts.google.com)
+-   [eslint-plugin-jsx-a11y package](https://www.npmjs.com/package/eslint-plugin-jsx-a11y) - Good eslint plugin for accessibility.
+-   [classnames](https://www.npmjs.com/package/classnames)
+-   [NPM Package: Number To Words](https://www.npmjs.com/package/number-to-words)
+-   [Tailwindcss Class Sorting with Prettier](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier) - Nice prettier plugin for sorting classes
+
+#### Stack Overflow
+
+-   [How do I update Node.js?](https://stackoverflow.com/questions/8191459/how-do-i-update-node-js)
+-   [Define global variable with webpack](https://stackoverflow.com/questions/37656592/define-global-variable-with-webpack)
 -   [Load Fonts with Webpack and Font Face](https://stackoverflow.com/questions/45489897/load-fonts-with-webpack-and-font-face)
 -   [How to pass .env file variables to webpack config?](https://stackoverflow.com/questions/46224986/how-to-pass-env-file-variables-to-webpack-config)
 -   [How to semantically provide a caption, title or label for a list in HTML](https://stackoverflow.com/questions/1141639/how-to-semantically-provide-a-caption-title-or-label-for-a-list-in-html)
--   [MDN Docs](https://developer.mozilla.org/en-US/docs/)
--   [eslint-plugin-jsx-a11y package](https://www.npmjs.com/package/eslint-plugin-jsx-a11y) - Good eslint plugin for accessibility.
--   [Font Awewsome Docs](https://docs.fontawesome.com/web/) - I used their svg icons with react.
--   [Tailwindcss Class Sorting with Prettier](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier) - Nice prettier plugin for sorting classes
--   [Prettier Docs](https://prettier.io/docs/en/)
--   [Cambridge English Dictionary](https://dictionary.cambridge.org/us/dictionary/english/) - I used the word definitions pages as a reference.
--   [Online JSON Validator](https://jsonlint.com)
--   [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/?fcolor=BC000B&bcolor=FFFFFF)
--   [\[BUG\] npm ERR! enoent ENOENT: no such file or directory, lstat 'C:\Users\userName\AppData\Roaming\npm' #6971](https://github.com/npm/cli/issues/6971)
 -   [Windows git "warning: LF will be replaced by CRLF", is that warning tail backward?](https://stackoverflow.com/questions/17628305/windows-git-warning-lf-will-be-replaced-by-crlf-is-that-warning-tail-backwar)
 -   [Combining multiple git repositories](https://stackoverflow.com/questions/277029/combining-multiple-git-repositories)
 -   [Error "Your push would publish a private email address"](https://stackoverflow.com/questions/43863522/error-your-push-would-publish-a-private-email-address)
 -   [Technical reason behind height: 100vh (working) vs min-height: 100vh (not working) for body?](https://stackoverflow.com/questions/49395367/technical-reason-behind-height-100vh-working-vs-min-height-100vh-not-workin)
--   [TypeScript Handbook/docs](https://www.typescriptlang.org/docs/handbook/)
--   [classnames](https://www.npmjs.com/package/classnames)
--   [Building a Custom Dropdown Component in React (Step by Step)](https://kaderbiral26.medium.com/building-a-custom-dropdown-component-in-react-step-by-step-e12f4330fb58)
--   [TailwindCSS Docs](https://tailwindcss.com/docs/installation)
--   [LoremFlickr](https://loremflickr.com)
--   [Control focus with tabindex](https://web.dev/articles/control-focus-with-tabindex)
--   [Next.js App Router Docs](https://nextjs.org/docs/app)
 -   [Does a favicon have to be 32×32 or 16×16?](https://stackoverflow.com/questions/4014823/does-a-favicon-have-to-be-32×32-or-16×16)
--   [Quickly generate your favicon from an image by uploading your image below. Download your favicon in the most up to date formats.](https://favicon.io/favicon-converter/)
--   [Convertio - File Converter](https://convertio.co/download/7840015b57aba6b84c0dad5e39bc81138e2326/) - Used it to convert from .png to .ico
--   [PIXELS to SVG - Pen by Shaw](https://codepen.io/shshaw/pen/XbxvNj)
--   [NPM Package: Number To Words](https://www.npmjs.com/package/number-to-words)
+-   [Difference between hard wrap and soft wrap?](https://stackoverflow.com/questions/319925/difference-between-hard-wrap-and-soft-wrap)
+-   [Can't access ref.current using React and Typescript](https://stackoverflow.com/questions/72153186/cant-access-ref-current-using-react-and-typescript)
+-   [Next.js App Router Docs](https://nextjs.org/docs/app)
 -   [Is it semantically correct in HTML to markup a list with only a single list item?](https://stackoverflow.com/questions/10834977/is-it-semantically-correct-in-html-to-markup-a-list-with-only-a-single-list-item)
+
+#### Tools
+
+-   [Canvas - Color Wheel](https://www.canva.com/colors/color-wheel/)
+-   [Hex to Hsl](https://htmlcolors.com/hex-to-hsl)
+-   [Online JSON Validator](https://jsonlint.com)
+-   [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/?fcolor=BC000B&bcolor=FFFFFF)
+-   [Google Fonts](https://fonts.google.com)
+-   [Convertio - File Converter](https://convertio.co/download/7840015b57aba6b84c0dad5e39bc81138e2326/) - Used it to convert from .png to .ico
+-   [LoremFlickr](https://loremflickr.com)
+-   [Quickly generate your favicon from an image by uploading your image below. Download your favicon in the most up to date formats.](https://favicon.io/favicon-converter/)
+-   [PIXELS to SVG - Pen by Shaw](https://codepen.io/shshaw/pen/XbxvNj)
 -   [The Current Epoch Unix Timestamp](https://www.unixtimestamp.com)
-- [HTMLAudioElement: Audio() constructor](https://developer.mozilla.org/en-US/docs/Web/API/HTMLAudioElement/Audio)
-- [Free music for video creators](https://freetouse.com/music) - I used it for testing the audio functionality as the dictionary api server is not working to retrieve audio files at the time i build this project.
-- [Can't access ref.current using React and Typescript](https://stackoverflow.com/questions/72153186/cant-access-ref-current-using-react-and-typescript)
+-   [Free music for video creators](https://freetouse.com/music) - I used it for testing the audio functionality as the dictionary api server is not working to retrieve audio files at the time i build this project.
+
+#### References
+
+-   [Dictionary web app | Frontend Mentor](https://www.frontendmentor.io/challenges/dictionary-web-app-h5wwnyuKFL) - A reference
+-   [Cambridge English Dictionary](https://dictionary.cambridge.org/us/dictionary/english/) - I used the word definitions pages as a reference.
+
+#### Other
+
+-   [How do I use React with Webpack?](https://reintech.io/blog/how-to-use-react-with-webpack)
+-   [A scalable naming convention for style-variables](https://medium.com/digio-australia/a-scalable-naming-convention-for-style-variables-6363b916432a) - Naming convention for the themes
+-   [Control focus with tabindex](https://web.dev/articles/control-focus-with-tabindex)
+-   [Building a Custom Dropdown Component in React (Step by Step)](https://kaderbiral26.medium.com/building-a-custom-dropdown-component-in-react-step-by-step-e12f4330fb58)
+-   [\[BUG\] npm ERR! enoent ENOENT: no such file or directory, lstat 'C:\Users\userName\AppData\Roaming\npm' #6971](https://github.com/npm/cli/issues/6971)
+-   [Reddit - Is eslint-plugin-react is unnecessary if i use @typescript-eslint/eslint-plugin and eslint-plugin-react-hooks?](https://www.reddit.com/r/reactjs/comments/1877xd3/is_eslintpluginreact_is_unnecessary_if_i_use/)
 
 ## Author
 

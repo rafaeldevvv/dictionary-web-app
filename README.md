@@ -72,16 +72,19 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 -   [TypeScript Handbook/docs](https://www.typescriptlang.org/docs/handbook/)
 -   [classnames](https://www.npmjs.com/package/classnames)
 -   [Building a Custom Dropdown Component in React (Step by Step)](https://kaderbiral26.medium.com/building-a-custom-dropdown-component-in-react-step-by-step-e12f4330fb58)
-- [TailwindCSS Docs](https://tailwindcss.com/docs/installation)
-- [LoremFlickr](https://loremflickr.com)
-- [Control focus with tabindex](https://web.dev/articles/control-focus-with-tabindex)
-- [Next.js App Router Docs](https://nextjs.org/docs/app)
-- [Does a favicon have to be 32×32 or 16×16?](https://stackoverflow.com/questions/4014823/does-a-favicon-have-to-be-32×32-or-16×16)
-- [Quickly generate your favicon from an image by uploading your image below. Download your favicon in the most up to date formats.](https://favicon.io/favicon-converter/)
-- [Convertio - File Converter](https://convertio.co/download/7840015b57aba6b84c0dad5e39bc81138e2326/) - Used it to convert from .png to .ico
-- [PIXELS to SVG - Pen by Shaw](https://codepen.io/shshaw/pen/XbxvNj)
-- [NPM Package: Number To Words](https://www.npmjs.com/package/number-to-words)
-- [Is it semantically correct in HTML to markup a list with only a single list item?](https://stackoverflow.com/questions/10834977/is-it-semantically-correct-in-html-to-markup-a-list-with-only-a-single-list-item)
+-   [TailwindCSS Docs](https://tailwindcss.com/docs/installation)
+-   [LoremFlickr](https://loremflickr.com)
+-   [Control focus with tabindex](https://web.dev/articles/control-focus-with-tabindex)
+-   [Next.js App Router Docs](https://nextjs.org/docs/app)
+-   [Does a favicon have to be 32×32 or 16×16?](https://stackoverflow.com/questions/4014823/does-a-favicon-have-to-be-32×32-or-16×16)
+-   [Quickly generate your favicon from an image by uploading your image below. Download your favicon in the most up to date formats.](https://favicon.io/favicon-converter/)
+-   [Convertio - File Converter](https://convertio.co/download/7840015b57aba6b84c0dad5e39bc81138e2326/) - Used it to convert from .png to .ico
+-   [PIXELS to SVG - Pen by Shaw](https://codepen.io/shshaw/pen/XbxvNj)
+-   [NPM Package: Number To Words](https://www.npmjs.com/package/number-to-words)
+-   [Is it semantically correct in HTML to markup a list with only a single list item?](https://stackoverflow.com/questions/10834977/is-it-semantically-correct-in-html-to-markup-a-list-with-only-a-single-list-item)
+-   [The Current Epoch Unix Timestamp](https://www.unixtimestamp.com)
+- [HTMLAudioElement: Audio() constructor](https://developer.mozilla.org/en-US/docs/Web/API/HTMLAudioElement/Audio)
+- [Free music for video creators](https://freetouse.com/music) - I used it for testing the audio functionality as the dictionary api server is not working to retrieve audio files at the time i build this project.
 
 ## Author
 

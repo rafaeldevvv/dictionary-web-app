@@ -1,6 +1,5 @@
-- Change theme toggle label depending on active theme
 - Implement the speaker
 - Improve mobile responsiveness
 - Change font menu background color
-- Make color theme toggle circle black when dark mode
+- add links in definitions and examples
 - Add images from [LoremFlickr](https://loremflickr.com)

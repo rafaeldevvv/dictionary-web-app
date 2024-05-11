@@ -5,6 +5,8 @@ import {
     Cedarville_Cursive,
     Instrument_Serif,
 } from 'next/font/google';
+import { keywords } from '@/metadata/shared';
+import AppWrapper from '@/components/AppWrapper';
 import './globals.css';
 
 const roboto = Roboto({
@@ -35,7 +37,7 @@ export const metadata: Metadata = {
         default: 'Dictionary Web App',
     },
     description: 'A dictionary app to look up words',
-    keywords: ['language', 'word', 'dictionary', 'english'],
+    keywords,
     creator: 'Rafael Maia',
     publisher: 'Rafael Maia',
     authors: [
@@ -61,7 +63,9 @@ export default function RootLayout({
                     instrument.variable,
                 ].join(' ')}
             >
-                {children}
+                <AppWrapper>
+                    {children}
+                </AppWrapper>
             </body>
         </html>
     );

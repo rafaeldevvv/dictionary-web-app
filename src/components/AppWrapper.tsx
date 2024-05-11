@@ -53,10 +53,12 @@ export default function AppWrapper({
                     }}
                     fontFamiliesClassnames={fontFamiliesClassnames}
                 />
-                <main>
-                    <WordForm word={''} onSubmit={() => {}} />
-                    {children}
-                </main>
+                <div>
+                    <WordForm />
+                    <main>
+                        {children}
+                    </main>
+                </div>
                 <Footer />
             </div>
         </div>

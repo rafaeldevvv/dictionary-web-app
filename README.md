@@ -76,6 +76,10 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 - [LoremFlickr](https://loremflickr.com)
 - [Control focus with tabindex](https://web.dev/articles/control-focus-with-tabindex)
 - [Next.js App Router Docs](https://nextjs.org/docs/app)
+- [Does a favicon have to be 32×32 or 16×16?](https://stackoverflow.com/questions/4014823/does-a-favicon-have-to-be-32×32-or-16×16)
+- [Quickly generate your favicon from an image by uploading your image below. Download your favicon in the most up to date formats.](https://favicon.io/favicon-converter/)
+- [Convertio - File Converter](https://convertio.co/download/7840015b57aba6b84c0dad5e39bc81138e2326/) - Used it to convert from .png to .ico
+- [PIXELS to SVG - Pen by Shaw](https://codepen.io/shshaw/pen/XbxvNj)
 
 ## Author
 

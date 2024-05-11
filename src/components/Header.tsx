@@ -1,6 +1,7 @@
 import DropdownMenu from './DropdownMenu';
 import ColorThemeSwitcher from './ColorThemeSwitcher';
 import { FontFamilies, FontFamiliesClassnames, Themes } from '@/ts/types';
+import Image from 'next/image';
 
 export interface HeaderProps {
     theme: Themes;
@@ -20,7 +21,12 @@ export default function Header({
     return (
         <header className="flex items-center justify-between py-6">
             <div>
-                <span className="font-mono text-3xl">D</span>
+                <Image
+                    src="/logo.svg"
+                    alt="Dictionary Web App Logo"
+                    width="45"
+                    height="45"
+                />
             </div>
             <div className="flex items-center gap-x-4">
                 <DropdownMenu
@@ -28,8 +34,8 @@ export default function Header({
                     current={font}
                     onChange={onChangeFont}
                     optionClassNames={fontFamiliesClassnames}
-                    baseId='font-menu'
-                    baseLabel='Font Family'
+                    baseId="font-menu"
+                    baseLabel="Font Family"
                 />
                 <span className="text-contrast-low">|</span>
                 <ColorThemeSwitcher theme={theme} onChange={onChangeTheme} />

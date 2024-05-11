@@ -1,2 +1,9 @@
-- Test font menu accessibility with a screen reader
+- Implement word page
+    - Improve the heading thing
+    - Implement form
+    - Improve the layout thing
+- Change theme toggle label depending on active theme
+- Improve mobile responsiveness
+- Change font menu background color
+- Make color theme toggle circle black when dark mode
 - Add images from [LoremFlickr](https://loremflickr.com)

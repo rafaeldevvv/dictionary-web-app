@@ -13,7 +13,7 @@ export default function WordFooter({ word }: { word: Word }) {
                         {word.sourceUrls.map((s) => (
                             <li key={s}>
                                 <ExternalLink
-                                    className="break-words text-primary underline visited:text-primary-visited hover:no-underline focus-visible:no-underline"
+                                    className="break-all text-primary underline visited:text-primary-visited hover:no-underline focus-visible:no-underline"
                                     href={s}
                                 >
                                     {s}

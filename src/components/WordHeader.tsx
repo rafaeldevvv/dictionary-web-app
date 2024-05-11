@@ -20,7 +20,7 @@ export default function WordHeader({
             <div>
                 <div className='flex'>
                     <h2
-                        className="mb-1 text-5xl text-contrast-high"
+                        className="mb-1 text-[clamp(2rem,10vw,3rem)] text-contrast-high"
                         id={headingId}
                     >
                         <a href={'#' + headingId} className="hover:underline">

@@ -44,7 +44,7 @@ export const MenuToggle = forwardRef(function MenuToggle(
             aria-controls={controls}
             onClick={onClick}
             onKeyDown={onKeyDown}
-            className="rounded-xl px-4 py-1 capitalize hover:bg-contrast-lower focus-visible:bg-contrast-lower"
+            className="rounded-xl px-[clamp(.5rem,4vw,1rem)] py-1 capitalize hover:bg-contrast-lower focus-visible:bg-contrast-lower"
             aria-label={label}
             ref={ref}
         >

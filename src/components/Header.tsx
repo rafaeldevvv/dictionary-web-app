@@ -19,7 +19,7 @@ export default function Header({
     fontFamiliesClassnames,
 }: HeaderProps) {
     return (
-        <header className="flex items-center justify-between py-6">
+        <header className="flex flex-wrap items-center justify-center gap-y-2 py-6 xs:justify-between">
             <div>
                 <Image
                     src="/logo.svg"
@@ -28,7 +28,7 @@ export default function Header({
                     height="45"
                 />
             </div>
-            <div className="flex items-center gap-x-4">
+            <div className="flex items-center gap-x-[min(1rem,1vw)]">
                 <DropdownMenu
                     options={['cursive', 'mono', 'sans', 'serif'] as const}
                     current={font}

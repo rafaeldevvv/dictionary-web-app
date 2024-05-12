@@ -1,4 +1,3 @@
-- Improve mobile responsiveness
 - Remove console log in DropdownMenu
 - Change font menu background color
 - add links in definitions and examples

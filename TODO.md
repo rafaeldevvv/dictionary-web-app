@@ -1,4 +1,2 @@
-- Remove console log in DropdownMenu
-- Change font menu background color
 - add links in definitions and examples
 - Add images from [LoremFlickr](https://loremflickr.com)

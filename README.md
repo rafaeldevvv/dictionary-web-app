@@ -90,6 +90,7 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 -   [PIXELS to SVG - Pen by Shaw](https://codepen.io/shshaw/pen/XbxvNj)
 -   [The Current Epoch Unix Timestamp](https://www.unixtimestamp.com)
 -   [Free music for video creators](https://freetouse.com/music) - I used it for testing the audio functionality as the dictionary api server is not working to retrieve audio files at the time i build this project.
+- [PIXILART](https://www.pixilart.com) - I used it to make the [logo](https://www.pixilart.com/art/book-sr2f309a6752daws3).
 
 #### References
 

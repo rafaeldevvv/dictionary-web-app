@@ -20,14 +20,14 @@ export default function Header({
 }: HeaderProps) {
     return (
         <header className="flex flex-wrap items-center justify-center gap-y-2 py-6 xs:justify-between">
-            <div>
+            <figure>
                 <Image
                     src="/logo.svg"
                     alt="Dictionary Web App Logo"
                     width="45"
                     height="45"
                 />
-            </div>
+            </figure>
             <div className="flex items-center gap-x-[min(1rem,1vw)]">
                 <DropdownMenu
                     options={['cursive', 'mono', 'sans', 'serif'] as const}

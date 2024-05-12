@@ -91,11 +91,14 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 -   [The Current Epoch Unix Timestamp](https://www.unixtimestamp.com)
 -   [Free music for video creators](https://freetouse.com/music) - I used it for testing the audio functionality as the dictionary api server is not working to retrieve audio files at the time i build this project.
 - [PIXILART](https://www.pixilart.com) - I used it to make the [logo](https://www.pixilart.com/art/book-sr2f309a6752daws3).
+- [ChatGPT](https://chatgpt.com)
 
 #### References
 
 -   [Dictionary web app | Frontend Mentor](https://www.frontendmentor.io/challenges/dictionary-web-app-h5wwnyuKFL) - A reference
 -   [Cambridge English Dictionary](https://dictionary.cambridge.org/us/dictionary/english/) - I used the word definitions pages as a reference.
+- [Different books pixel art set - Adobe](https://stock.adobe.com/br/images/different-books-pixel-art-set-fantasy-tome-folio-collection-open-closed-textbooks-8-bit-sprite-game-development-mobile-app-isolated-vector-illustration/502502076)
+- [Opened book with pixel art style](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Fpremium-vector%2Fopened-book-with-pixel-art-style_19580503.htm&psig=AOvVaw0Si-uM6xDpYjJ30K2eVCtg&ust=1715632198911000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNjF6vX7iIYDFQAAAAAdAAAAABAR)
 
 #### Other
 
@@ -105,6 +108,7 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 -   [Building a Custom Dropdown Component in React (Step by Step)](https://kaderbiral26.medium.com/building-a-custom-dropdown-component-in-react-step-by-step-e12f4330fb58)
 -   [\[BUG\] npm ERR! enoent ENOENT: no such file or directory, lstat 'C:\Users\userName\AppData\Roaming\npm' #6971](https://github.com/npm/cli/issues/6971)
 -   [Reddit - Is eslint-plugin-react is unnecessary if i use @typescript-eslint/eslint-plugin and eslint-plugin-react-hooks?](https://www.reddit.com/r/reactjs/comments/1877xd3/is_eslintpluginreact_is_unnecessary_if_i_use/)
+- [Do search engines perform JS rendering while crawling?](https://webmasters.stackexchange.com/questions/140250/do-search-engines-perform-js-rendering-while-crawling)
 
 ## Author
 

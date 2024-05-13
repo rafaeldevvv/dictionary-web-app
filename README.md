@@ -78,6 +78,7 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
  - [rejected master -> master (non-fast-forward)](https://stackoverflow.com/questions/11696295/rejected-master-master-non-fast-forward)
 - [In HTML5, should the main navigation be inside or outside the <header> element?](https://stackoverflow.com/questions/4870955/in-html5-should-the-main-navigation-be-inside-or-outside-the-header-element)
 - [Is <input> well formed without a <form>?](https://stackoverflow.com/questions/3294572/is-input-well-formed-without-a-form#:~:text=without%20a%20<form,used%20to%20build%20user%20interfaces.)
+- [Should input element be inside form or not?](https://stackoverflow.com/questions/78472673/should-input-element-be-inside-form-or-not/78472938)
 
 #### Tools
 
@@ -94,6 +95,7 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 -   [Free music for video creators](https://freetouse.com/music) - I used it for testing the audio functionality as the dictionary api server is not working to retrieve audio files at the time i build this project.
 - [PIXILART](https://www.pixilart.com) - I used it to make the [logo](https://www.pixilart.com/art/book-sr2f309a6752daws3).
 - [ChatGPT](https://chatgpt.com)
+- [Copilot](https://www.bing.com/chat?q=Microsoft+Copilot&FORM=hpcodx)
 
 #### References
 

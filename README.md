@@ -76,6 +76,8 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 -   [Next.js App Router Docs](https://nextjs.org/docs/app)
 -   [Is it semantically correct in HTML to markup a list with only a single list item?](https://stackoverflow.com/questions/10834977/is-it-semantically-correct-in-html-to-markup-a-list-with-only-a-single-list-item)
  - [rejected master -> master (non-fast-forward)](https://stackoverflow.com/questions/11696295/rejected-master-master-non-fast-forward)
+- [In HTML5, should the main navigation be inside or outside the <header> element?](https://stackoverflow.com/questions/4870955/in-html5-should-the-main-navigation-be-inside-or-outside-the-header-element)
+- [Is <input> well formed without a <form>?](https://stackoverflow.com/questions/3294572/is-input-well-formed-without-a-form#:~:text=without%20a%20<form,used%20to%20build%20user%20interfaces.)
 
 #### Tools
 

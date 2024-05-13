@@ -22,10 +22,13 @@ export default function WordSpeaker({ audioUrl }: { audioUrl: string }) {
         audio.play();
     }, []);
 
+    const label = 'Listen to the pronunciation'
+
     return (
         <button
             type="button"
-            aria-label="Listen to the pronunciation"
+            aria-label={label}
+            title={label}
             className="group"
             onClick={handleClick}
         >

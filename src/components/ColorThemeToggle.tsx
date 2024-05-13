@@ -13,9 +13,11 @@ export default function ColorThemeToggle({
     onChange,
 }: ColorThemeSwitcherProps) {
     const otherTheme = theme === 'dark' ? 'light' : 'dark';
+    const label = `Change to ${otherTheme} theme`;
     return (
         <button
-            aria-label={`Change to ${otherTheme} theme`}
+            aria-label={label}
+            title={label}
             className="flex items-center gap-x-4 rounded-xl px-2 py-1 hover:bg-contrast-lower"
             onClick={() => {
                 onChange(otherTheme);

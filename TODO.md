@@ -1,4 +1,3 @@
-- add jokes from [icanhasdadjoke](https://icanhazdadjoke.com/api)
 - Add images from [LoremFlickr](https://loremflickr.com)
 - Add `role="image"` to svg images due to some bugs. [source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#identifying_svg_as_an_image)
 - add links in definitions and examples

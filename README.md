@@ -19,7 +19,7 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 
 ### Links
 
--   Live Site: (_soon_)
+-   Live Site: [https://lexicogranary.vercel.app/](https://lexicogranary.vercel.app/)
 
 ### Tools Used
 
@@ -99,6 +99,11 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 -   [Copilot](https://www.bing.com/chat?q=Microsoft+Copilot&FORM=hpcodx)
 -   [Image Resizer.com](https://imageresizer.com)
 -   [Restfox](https://restfox.dev) - I used it to test some apis.
+
+#### APIs
+
+- [icanhazdadjoke](https://icanhazdadjoke.com)
+- [Free Dictionary API](https://dictionaryapi.dev/)
 
 #### References
 

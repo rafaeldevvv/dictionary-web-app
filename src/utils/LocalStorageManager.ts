@@ -4,27 +4,34 @@ import type { DictionaryWebAppData } from '@/ts/types';
 
 const localStorageField = 'dictionary-web-app';
 
-const mql = matchMedia('(prefers-color-scheme: dark)');
-const dark = mql.matches;
+let data = {} as DictionaryWebAppData;
 
-const localStorageData = localStorage.getItem(localStorageField);
-const data = (
-    localStorageData
-        ? JSON.parse(localStorageData)
-        : {
-              font: 'sans',
-              theme: dark ? 'dark' : 'light',
-          }
-) as DictionaryWebAppData;
+function getData() {
+    const mql = matchMedia('(prefers-color-scheme: dark)');
+    const dark = mql.matches;
+
+    const localStorageData = localStorage.getItem(localStorageField);
+    const data = (
+        localStorageData
+            ? JSON.parse(localStorageData)
+            : {
+                font: 'sans',
+                theme: dark ? 'dark' : 'light',
+            }
+    ) as DictionaryWebAppData;
+    return data;
+}
 
 export function save<Key extends keyof DictionaryWebAppData>(
     key: Key,
     newData: DictionaryWebAppData[Key],
 ) {
+    if (data.font === undefined) data = getData();
     data[key] = newData;
     localStorage.setItem(localStorageField, JSON.stringify(data));
 }
 
 export function getWholeData() {
+    if (data.font === undefined) data = getData();
     return data;
 }

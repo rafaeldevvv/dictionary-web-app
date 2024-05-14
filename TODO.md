@@ -1,4 +1,4 @@
-- possibly improve definition list semantics (description lists, strong, 'definition:' and 'example:' (sr-only))
+- fix the problem in [this file](./src/utils/LocalStorageManager.ts)
 - add jokes from [icanhasdadjoke](https://icanhazdadjoke.com/api)
 - Add images from [LoremFlickr](https://loremflickr.com)
 - add links in definitions and examples

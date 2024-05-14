@@ -102,8 +102,8 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 
 #### APIs
 
-- [icanhazdadjoke](https://icanhazdadjoke.com)
-- [Free Dictionary API](https://dictionaryapi.dev/)
+-   [icanhazdadjoke](https://icanhazdadjoke.com)
+-   [Free Dictionary API](https://dictionaryapi.dev/)
 
 #### References
 
@@ -122,6 +122,9 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 -   [Reddit - Is eslint-plugin-react is unnecessary if i use @typescript-eslint/eslint-plugin and eslint-plugin-react-hooks?](https://www.reddit.com/r/reactjs/comments/1877xd3/is_eslintpluginreact_is_unnecessary_if_i_use/)
 -   [Do search engines perform JS rendering while crawling?](https://webmasters.stackexchange.com/questions/140250/do-search-engines-perform-js-rendering-while-crawling)
 -   [How to execute code client-side only](https://github.com/vercel/next.js/issues/2473)
+-   [sync problem with file with lower case and upper case](https://github.com/isaacs/github/issues/1520)
+-   [Semantic Commit Messages](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
+-   [conventional-commit-types](https://github.com/pvdlg/conventional-commit-types)
 
 ## Author
 

@@ -3,15 +3,27 @@ import WordFooter from './WordFooter';
 import WordHeader from './WordHeader';
 import WordMeaning from './WordMeaning';
 import WordOrigin from './WordOrigin';
+import getJoke from '@/utils/getRandomJoke';
+import WordJoke from './WordJoke';
 
-export default function Word({
+export default async function Word({
     word,
     number,
+    index
 }: {
     word: IWord;
     number: number;
+    /**
+     * It is used to select a joke in the search results
+     * returned by the canhazdadjoke api
+     */
+    index?: number;
 }) {
     const headingId = `${word.word.replace(/\W/g, '-')}-definition-${number}`;
+    let joke: string | null = null;
+    if (index !== undefined) {
+        joke = await getJoke(word.word, index);
+    }
 
     return (
         <section aria-labelledby={headingId}>
@@ -27,6 +39,7 @@ export default function Word({
                 ))}
             </div>
             {word.origin && <WordOrigin word={word} baseId={headingId} />}
+            {joke && <WordJoke joke={joke} />}
             <WordFooter word={word} />
         </section>
     );

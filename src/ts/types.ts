@@ -45,3 +45,20 @@ export interface Definition {
     synonyms: string[];
     antonyms: string[];
 }
+
+export interface Joke {
+    id: string,
+    joke: string,
+  }
+
+export interface SearchedJoke {
+    current_page: number,
+    limit: number,
+    next_page: number,
+    previous_page: number,
+    results: Joke[],
+    search_term: string,
+    status:number,
+    total_jokes: number,
+    total_pages: number
+  }

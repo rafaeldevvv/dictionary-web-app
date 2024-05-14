@@ -47,6 +47,7 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 -   [TypeScript Handbook/docs](https://www.typescriptlang.org/docs/handbook/)
 -   [TailwindCSS Docs](https://tailwindcss.com/docs/installation)
 -   [Dictionary API](https://dictionaryapi.dev)
+-   [icanhazdadjoke API](https://icanhazdadjoke.com/api)
 
 #### Packages
 
@@ -115,6 +116,7 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 -   [\[BUG\] npm ERR! enoent ENOENT: no such file or directory, lstat 'C:\Users\userName\AppData\Roaming\npm' #6971](https://github.com/npm/cli/issues/6971)
 -   [Reddit - Is eslint-plugin-react is unnecessary if i use @typescript-eslint/eslint-plugin and eslint-plugin-react-hooks?](https://www.reddit.com/r/reactjs/comments/1877xd3/is_eslintpluginreact_is_unnecessary_if_i_use/)
 -   [Do search engines perform JS rendering while crawling?](https://webmasters.stackexchange.com/questions/140250/do-search-engines-perform-js-rendering-while-crawling)
+-   [How to execute code client-side only](https://github.com/vercel/next.js/issues/2473)
 
 ## Author
 

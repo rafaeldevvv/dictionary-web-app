@@ -35,7 +35,14 @@ export default async function WordPage({ params }: { params: WordParams }) {
             </h1>
             <div className="space-y-20">
                 {wordData.map((d, i) => {
-                    return <Word word={d} number={i + 1} key={i} />;
+                    return (
+                        <Word
+                            word={d}
+                            number={i + 1}
+                            key={i}
+                            index={i}
+                        />
+                    );
                 })}
             </div>
         </article>

@@ -7,7 +7,7 @@ import WordForm from './WordForm';
 import { useState, useMemo, useEffect } from 'react';
 import { FontFamilies, FontFamiliesClassnames, Themes } from '@/ts/types';
 import classNames from 'classnames';
-import * as storage from '@/utils/localStorageManager';
+import * as storage from '@/utils/LocalStorageManager';
 
 export default function AppWrapper({
     children,

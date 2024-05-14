@@ -2,7 +2,15 @@ import { Meaning } from '@/ts/types';
 import HomonymsList from './HomonymsList';
 import WordDefinition from './WordDefinition';
 
-export default function WordMeaning({ meaning, headingId }: { meaning: Meaning; headingId: string }) {
+export default function WordMeaning({
+    word,
+    meaning,
+    headingId,
+}: {
+    meaning: Meaning;
+    headingId: string;
+    word: string;
+}) {
     const id = headingId + '-' + meaning.partOfSpeech;
     const areSynonymsAvailable =
             meaning.synonyms && meaning.synonyms.length !== 0,
@@ -23,15 +31,15 @@ export default function WordMeaning({ meaning, headingId }: { meaning: Meaning; 
                 <figcaption className="my-4 text-contrast-normal">
                     Meaning
                 </figcaption>
-                <ul className="list-disc space-y-3 ps-8">
+                <ol className="list-decimal space-y-3 ps-8">
                     {meaning.definitions.map((d) => {
                         return (
                             <li key={d.definition}>
-                                <WordDefinition def={d} />
+                                <WordDefinition word={word} def={d} />
                             </li>
                         );
                     })}
-                </ul>
+                </ol>
             </figure>
             {areSynonymsAvailable && (
                 <div className="mt-8">

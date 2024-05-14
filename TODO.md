@@ -1,6 +1,5 @@
-- add links in definitions and examples
 - possibly improve definition list semantics (description lists, strong, 'definition:' and 'example:' (sr-only))
-- add title attibute to font menu and theme toggle
 - add jokes from [icanhasdadjoke](https://icanhazdadjoke.com/api)
 - Add images from [LoremFlickr](https://loremflickr.com)
+- add links in definitions and examples
 - Add tests with testing framework like [Jest](https://jestjs.io)

@@ -30,8 +30,10 @@ export default async function WordPage({ params }: { params: WordParams }) {
     const wordData = await getWord(word);
     return (
         <article>
-            <h1 className="sr-only">All sets of definitions for the word {word}</h1>
-            <div className='space-y-20'>
+            <h1 className="sr-only">
+                All sets of definitions for the word {word}
+            </h1>
+            <div className="space-y-20">
                 {wordData.map((d, i) => {
                     return <Word word={d} number={i + 1} key={i} />;
                 })}

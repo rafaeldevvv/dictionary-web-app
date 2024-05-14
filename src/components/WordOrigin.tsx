@@ -1,11 +1,18 @@
 import type { Word } from '@/ts/types';
 
-export default function WordOrigin({ word }: { word: Word }) {
+export default function WordOrigin({
+    word,
+    baseId,
+}: {
+    word: Word;
+    baseId: string;
+}) {
+    const id = baseId + '-origin';
     return (
-        <section aria-labelledby="origin-heading" className="my-6">
-            <h2 id="origin-heading" className="mb-4 flex items-center gap-x-2">
+        <section aria-labelledby={id} className="my-6">
+            <h2 id={id} className="mb-4 flex items-center gap-x-2">
                 <a
-                    href="#origin-heading"
+                    href={'#' + id}
                     className="text-lg font-bold uppercase hover:underline"
                 >
                     Origin

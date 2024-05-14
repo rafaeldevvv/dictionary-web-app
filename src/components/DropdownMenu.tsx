@@ -34,7 +34,7 @@ export const MenuToggle = forwardRef(function MenuToggle(
         onKeyDown,
         children,
         expanded,
-        title
+        title,
     }: MenuToggleProps,
     ref: ForwardedRef<HTMLButtonElement>,
 ) {

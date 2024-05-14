@@ -5,13 +5,13 @@ import Image from 'next/image';
 export default function NotFound() {
     return (
         <div className="mx-auto h-full max-w-sm text-center">
-            <figure className='py-4'>
+            <figure className="py-4">
                 <Image
                     alt="Book displaying 404 Not Found"
                     width="300"
                     height="300"
                     src="/not-found.svg"
-                    className='mx-auto'
+                    className="mx-auto"
                 />
             </figure>
             <h1 className="mb-4 text-4xl font-bold">No Definitions Found</h1>

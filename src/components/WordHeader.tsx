@@ -18,7 +18,7 @@ export default function WordHeader({
     return (
         <header className="mb-6">
             <div>
-                <div className='flex'>
+                <div className="flex">
                     <h2
                         className="mb-1 text-[clamp(2rem,10vw,3rem)] text-contrast-high"
                         id={headingId}

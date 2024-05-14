@@ -2,7 +2,7 @@
  * Find the first string in an array of strings whose first
  * letter is equal to the `letter` parameter, starting the search
  * from the `startIndex` parameter.
- * 
+ *
  * @returns - The index of the first item starting with `letter`
  * or undefined if there isn't one.
  */

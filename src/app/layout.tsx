@@ -63,9 +63,7 @@ export default function RootLayout({
                     instrument.variable,
                 ].join(' ')}
             >
-                <AppWrapper>
-                    {children}
-                </AppWrapper>
+                <AppWrapper>{children}</AppWrapper>
             </body>
         </html>
     );

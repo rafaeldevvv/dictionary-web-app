@@ -1,1 +1,1 @@
-export const keywords = ['language', 'word', 'dictionary', 'english']
+export const keywords = ['language', 'word', 'dictionary', 'english'];

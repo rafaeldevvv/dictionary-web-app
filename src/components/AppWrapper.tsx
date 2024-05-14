@@ -55,9 +55,7 @@ export default function AppWrapper({
                 />
                 <div>
                     <WordForm />
-                    <main>
-                        {children}
-                    </main>
+                    <main>{children}</main>
                 </div>
                 <Footer />
             </div>

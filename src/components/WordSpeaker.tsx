@@ -5,7 +5,9 @@ import { faVolumeHigh } from '@fortawesome/free-solid-svg-icons';
 import { useRef, useEffect, useCallback, MutableRefObject } from 'react';
 
 export default function WordSpeaker({ audioUrl }: { audioUrl: string }) {
-    const audioRef = useRef<HTMLAudioElement>(null) as MutableRefObject<HTMLAudioElement>;
+    const audioRef = useRef<HTMLAudioElement>(
+        null,
+    ) as MutableRefObject<HTMLAudioElement>;
 
     /* AT THE TIME I WRITE THIS CODE (2024-05-11), THE FREE
     DICTIONARY API SERVER IS NOT WORKING TO RETRIEVE AUDIO
@@ -22,7 +24,7 @@ export default function WordSpeaker({ audioUrl }: { audioUrl: string }) {
         audio.play();
     }, []);
 
-    const label = 'Listen to the pronunciation'
+    const label = 'Listen to the pronunciation';
 
     return (
         <button

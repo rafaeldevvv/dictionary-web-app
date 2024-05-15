@@ -12,6 +12,7 @@ export default function NotFound() {
                     height="300"
                     src="/not-found.svg"
                     className="mx-auto"
+                    role='img'
                 />
             </figure>
             <h1 className="mb-4 text-4xl font-bold">No Definitions Found</h1>

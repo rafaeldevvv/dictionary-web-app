@@ -23,9 +23,10 @@ export default function Header({
             <figure>
                 <Image
                     src="/logo.svg"
-                    alt="Dictionary Web App Logo"
+                    alt="Dictionary Web App Logo: an open pixel-art book"
                     width="45"
                     height="45"
+                    role='img'
                 />
             </figure>
             <div className="flex items-center gap-x-[min(1rem,1vw)]">

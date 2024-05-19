@@ -34,7 +34,7 @@ export default function WordForm() {
                     }}
                     id="word-input"
                     placeholder="Type any word"
-                    className="block h-full w-full rounded-lg bg-contrast-lower pl-3 pr-14 text-contrast-high placeholder:text-contrast-normal"
+                    className="block h-full w-full rounded-lg bg-contrast-lower pl-3 pr-14 text-contrast-highest placeholder:text-contrast-normal"
                 />
             </label>
             <Link
@@ -46,7 +46,7 @@ export default function WordForm() {
             >
                 <FontAwesomeIcon
                     icon={faArrowRight}
-                    className="text-contrast-low transition-colors group-hover:text-contrast-high group-focus-visible:text-contrast-high"
+                    className="text-contrast-low transition-colors group-hover:text-contrast-highest group-focus-visible:text-contrast-highest"
                 />
             </Link>
         </nav>

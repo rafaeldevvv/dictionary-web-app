@@ -6,8 +6,10 @@ import WordForm from './WordForm';
 
 import { useState, useMemo, useEffect } from 'react';
 import { FontFamilies, FontFamiliesClassnames, Themes } from '@/ts/types';
-import classNames from 'classnames';
 import * as storage from '@/utils/localStorageManager';
+
+import Modal from 'react-modal';
+Modal.setAppElement('#root');
 
 export default function AppWrapper({
     children,
@@ -31,13 +33,25 @@ export default function AppWrapper({
         setFont(savedOptions.font);
     }, []);
 
+    /* synchronizes  */
+    useEffect(() => {
+        const body = document.body;
+        for (const fontClass in fontFamiliesClassnames) {
+            body.classList.remove(
+                fontFamiliesClassnames[fontClass as FontFamilies],
+            );
+        }
+        body.classList.add(fontFamiliesClassnames[font]);
+    }, [font, fontFamiliesClassnames]);
+
+    useEffect(() => {
+        document.body.setAttribute('data-theme', theme);
+    }, [theme]);
+
     return (
         <div
-            data-theme={theme}
-            className={classNames(
-                'bg-background text-contrast-high transition-colors',
-                fontFamiliesClassnames[font],
-            )}
+            className="bg-background text-contrast-highest transition-colors"
+            id="root"
         >
             <div className="container grid min-h-screen grid-rows-[min-content_1fr_min-content]">
                 <Header

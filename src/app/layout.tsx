@@ -54,13 +54,13 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="en">
+        <html lang="en" className='scroll-smooth'>
             <body
                 className={[
                     roboto.variable,
                     vt323.variable,
                     cedarville.variable,
-                    instrument.variable,
+                    instrument.variable
                 ].join(' ')}
             >
                 <AppWrapper>{children}</AppWrapper>

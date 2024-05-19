@@ -43,7 +43,7 @@ export function Example({ word, example }: { word: string; example: string }) {
     return (
         <p className="italic text-contrast-normal">
             &quot;{parts[0]}
-            <strong className="text-contrast-high">{match}</strong>
+            <strong className="text-contrast-highest">{match}</strong>
             {parts[1]}&quot;
         </p>
     );

@@ -16,11 +16,11 @@ export default function WordHeader({
     const { phonetic, audio } = getPhoneticInfo(word);
 
     return (
-        <header className="mb-6">
-            <div>
+        <header className="mb-8">
+            <div className='mb-4'>
                 <div className="flex">
                     <h2
-                        className="mb-1 text-[clamp(2rem,10vw,3rem)] text-contrast-high"
+                        className="mb-1 text-[clamp(2rem,10vw,3rem)] text-contrast-highest"
                         id={headingId}
                     >
                         <a href={'#' + headingId} className="hover:underline">

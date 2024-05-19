@@ -99,7 +99,7 @@ export function MenuItemRadio({
             aria-checked={checked}
             className={classNames(
                 className,
-                'block w-full rounded-md px-3 py-1 text-right capitalize transition-colors hover:bg-contrast-high hover:text-background focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-contrast-high',
+                'block w-full rounded-md px-3 py-1 text-right capitalize transition-colors hover:bg-contrast-highest hover:text-background focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-contrast-high',
                 {
                     'rounded-r-none border-r-4 border-r-primary text-primary':
                         checked,

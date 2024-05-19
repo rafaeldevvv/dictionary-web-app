@@ -29,7 +29,7 @@ export default function ErrorPage({
                 <button
                     type="button"
                     onClick={reset}
-                    className="hover:text-backgrou''nd border-2 border-solid border-primary px-3 py-2 font-bold uppercase text-primary outline-offset-4 transition-colors hover:bg-primary focus-visible:bg-primary focus-visible:text-background focus-visible:outline-primary"
+                    className="border-2 border-solid border-primary px-3 py-2 font-bold uppercase text-primary outline-offset-4 transition-colors hover:bg-primary hover:text-background focus-visible:bg-primary focus-visible:text-background focus-visible:outline-primary"
                 >
                     Try again
                 </button>

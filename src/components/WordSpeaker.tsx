@@ -36,7 +36,7 @@ export default function WordSpeaker({ audioUrl }: { audioUrl: string }) {
         >
             <FontAwesomeIcon
                 icon={faVolumeHigh}
-                className="text-contrast-normal transition-colors group-hover:text-contrast-high group-focus-visible:text-contrast-high group-active:scale-90"
+                className="text-contrast-normal transition-colors group-hover:text-contrast-highest group-focus-visible:text-contrast-highest group-active:scale-90"
             />
         </button>
     );

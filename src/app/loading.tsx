@@ -2,8 +2,23 @@ export default function Loading() {
     return (
         <div>
             <p className="sr-only">Loading content</p>
-            <div className="mb-2 mt-10 h-14 max-w-sm animate-pulse rounded bg-contrast-low delay-75"></div>
-            <div className="h-4 max-w-20 animate-pulse rounded bg-contrast-low"></div>
+            <div className="mb-6 mt-10 animate-pulse">
+                <div className="grid grid-cols-2 gap-1 overflow-hidden rounded-lg sm:grid-cols-4">
+                    {Array(8)
+                        .fill(undefined)
+                        .map((_, i) => {
+                            return (
+                                <div
+                                    key={i}
+                                    className="aspect-square bg-contrast-low"
+                                />
+                            );
+                        })}
+                </div>
+                <div className="mx-auto mt-4 h-8 max-w-sm rounded bg-contrast-low"></div>
+            </div>
+            <div className="mb-2 h-12 max-w-48 animate-pulse rounded bg-contrast-low delay-75" />
+            <div className="h-4 max-w-20 animate-pulse rounded bg-contrast-low" />
 
             <div className="space-y-6">
                 {Array(3)

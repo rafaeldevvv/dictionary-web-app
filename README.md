@@ -48,6 +48,9 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 -   [TailwindCSS Docs](https://tailwindcss.com/docs/installation)
 -   [Dictionary API](https://dictionaryapi.dev)
 -   [icanhazdadjoke API](https://icanhazdadjoke.com/api)
+-   [Unsplash Documentation](https://unsplash.com/documentation)
+-   [Postman docs](https://learning.postman.com/docs/introduction/overview/)
+-   [react-modal docs](https://reactcommunity.org/react-modal/)
 
 #### Packages
 
@@ -59,6 +62,28 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 -   [classnames](https://www.npmjs.com/package/classnames)
 -   [NPM Package: Number To Words](https://www.npmjs.com/package/number-to-words)
 -   [Tailwindcss Class Sorting with Prettier](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier) - Nice prettier plugin for sorting classes
+-   [unsplash-js](https://github.com/unsplash/unsplash-js) - Unsplash SDK
+-   [react-modal](https://www.npmjs.com/package/react-modal)
+
+#### Tools
+
+-   [Canvas - Color Wheel](https://www.canva.com/colors/color-wheel/)
+-   [Hex to Hsl](https://htmlcolors.com/hex-to-hsl)
+-   [Online JSON Validator](https://jsonlint.com)
+-   [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/?fcolor=BC000B&bcolor=FFFFFF)
+-   [Google Fonts](https://fonts.google.com)
+-   [Convertio - File Converter](https://convertio.co/download/7840015b57aba6b84c0dad5e39bc81138e2326/) - Used it to convert from .png to .ico
+-   [LoremFlickr](https://loremflickr.com)
+-   [Quickly generate your favicon from an image by uploading your image below. Download your favicon in the most up to date formats.](https://favicon.io/favicon-converter/)
+-   [PIXELS to SVG - Pen by Shaw](https://codepen.io/shshaw/pen/XbxvNj)
+-   [The Current Epoch Unix Timestamp](https://www.unixtimestamp.com)
+-   [Free music for video creators](https://freetouse.com/music) - I used it for testing the audio functionality as the dictionary api server is not working to retrieve audio files at the time i build this project.
+-   [PIXILART](https://www.pixilart.com) - I used it to make the [logo](https://www.pixilart.com/art/book-sr2f309a6752daws3) and the [not-found.svg](./public/not-found.svg) image.
+-   [ChatGPT](https://chatgpt.com)
+-   [Copilot](https://www.bing.com/chat?q=Microsoft+Copilot&FORM=hpcodx)
+-   [Image Resizer.com](https://imageresizer.com)
+-   [Restfox](https://restfox.dev) 
+-   [Postman](https://web.postman.co) - I used the last two to test some apis.
 
 #### Stack Overflow
 
@@ -80,30 +105,18 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 -   [In HTML5, should the main navigation be inside or outside the <header> element?](https://stackoverflow.com/questions/4870955/in-html5-should-the-main-navigation-be-inside-or-outside-the-header-element)
 -   [Is <input> well formed without a <form>?](https://stackoverflow.com/questions/3294572/is-input-well-formed-without-a-form#:~:text=without%20a%20<form,used%20to%20build%20user%20interfaces.)
 -   [Should input element be inside form or not?](https://stackoverflow.com/questions/78472673/should-input-element-be-inside-form-or-not/78472938)
-
-#### Tools
-
--   [Canvas - Color Wheel](https://www.canva.com/colors/color-wheel/)
--   [Hex to Hsl](https://htmlcolors.com/hex-to-hsl)
--   [Online JSON Validator](https://jsonlint.com)
--   [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/?fcolor=BC000B&bcolor=FFFFFF)
--   [Google Fonts](https://fonts.google.com)
--   [Convertio - File Converter](https://convertio.co/download/7840015b57aba6b84c0dad5e39bc81138e2326/) - Used it to convert from .png to .ico
--   [LoremFlickr](https://loremflickr.com)
--   [Quickly generate your favicon from an image by uploading your image below. Download your favicon in the most up to date formats.](https://favicon.io/favicon-converter/)
--   [PIXELS to SVG - Pen by Shaw](https://codepen.io/shshaw/pen/XbxvNj)
--   [The Current Epoch Unix Timestamp](https://www.unixtimestamp.com)
--   [Free music for video creators](https://freetouse.com/music) - I used it for testing the audio functionality as the dictionary api server is not working to retrieve audio files at the time i build this project.
--   [PIXILART](https://www.pixilart.com) - I used it to make the [logo](https://www.pixilart.com/art/book-sr2f309a6752daws3) and the [not-found.svg](./public/not-found.svg) image.
--   [ChatGPT](https://chatgpt.com)
--   [Copilot](https://www.bing.com/chat?q=Microsoft+Copilot&FORM=hpcodx)
--   [Image Resizer.com](https://imageresizer.com)
--   [Restfox](https://restfox.dev) - I used it to test some apis.
+-   [Relative paths with fetch in Javascript](https://stackoverflow.com/questions/36369082/relative-paths-with-fetch-in-javascript)
+-   [Is it a good practice to use Material Ui and tailwind in a same project](https://stackoverflow.com/questions/68218403/is-it-a-good-practice-to-use-material-ui-and-tailwind-in-a-same-project)
+-   [Make scroll bar take no space / prevent layout shift](https://stackoverflow.com/questions/21367441/make-scroll-bar-take-no-space-prevent-layout-shift)
+-   [Why would max-width not work on this?](https://stackoverflow.com/questions/14938428/why-would-max-width-not-work-on-this)
 
 #### APIs
 
+-   [Try Public APIs for free](https://github.com/public-apis/public-apis?tab=readme-ov-file#dictionaries)
 -   [icanhazdadjoke](https://icanhazdadjoke.com)
 -   [Free Dictionary API](https://dictionaryapi.dev/)
+-   [Unsplash API](https://unsplash.com/documentation)
+-   [Pexels API](https://www.pexels.com/api/documentation/) I didn't use it due to limits on the number of requests, but it is still useful.
 
 #### References
 
@@ -125,6 +138,10 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 -   [sync problem with file with lower case and upper case](https://github.com/isaacs/github/issues/1520)
 -   [Semantic Commit Messages](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
 -   [conventional-commit-types](https://github.com/pvdlg/conventional-commit-types)
+-   [<img>: The Image Embed element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#identifying_svg_as_an_image) - There's a great piece of information about having to add `role='img'` to svg images to improve accessibility due to a [VoiceOver bug](https://webkit.org/b/216364)
+-   [About fully qualified domain names (FQDNs)](https://kb.iu.edu/d/aiuv#:~:text=A%20fully%20qualified%20domain%20name,hostname%20and%20the%20domain%20name.)
+-   [Nome de Domínio Totalmente Qualificado (FQDN): Guia Completo com Exemplos](https://kinsta.com/wp-content/uploads/2022/07/structure-of-url.png)
+-   [Failed to parse URL when fetching localhost using Server Components](https://github.com/vercel/next.js/issues/48344)
 
 ## Author
 

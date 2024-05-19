@@ -85,7 +85,7 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 -   [Restfox](https://restfox.dev) 
 -   [Postman](https://web.postman.co) - I used the last two to test some apis.
 
-#### Stack Overflow
+#### Stack Overflow/Exchange
 
 -   [How do I update Node.js?](https://stackoverflow.com/questions/8191459/how-do-i-update-node-js)
 -   [Define global variable with webpack](https://stackoverflow.com/questions/37656592/define-global-variable-with-webpack)
@@ -109,6 +109,7 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 -   [Is it a good practice to use Material Ui and tailwind in a same project](https://stackoverflow.com/questions/68218403/is-it-a-good-practice-to-use-material-ui-and-tailwind-in-a-same-project)
 -   [Make scroll bar take no space / prevent layout shift](https://stackoverflow.com/questions/21367441/make-scroll-bar-take-no-space-prevent-layout-shift)
 -   [Why would max-width not work on this?](https://stackoverflow.com/questions/14938428/why-would-max-width-not-work-on-this)
+-   [What website allows you to type in a word and it gives you the associated color?](https://graphicdesign.stackexchange.com/questions/83750/what-website-allows-you-to-type-in-a-word-and-it-gives-you-the-associated-color)
 
 #### APIs
 
@@ -142,6 +143,7 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 -   [About fully qualified domain names (FQDNs)](https://kb.iu.edu/d/aiuv#:~:text=A%20fully%20qualified%20domain%20name,hostname%20and%20the%20domain%20name.)
 -   [Nome de Domínio Totalmente Qualificado (FQDN): Guia Completo com Exemplos](https://kinsta.com/wp-content/uploads/2022/07/structure-of-url.png)
 -   [Failed to parse URL when fetching localhost using Server Components](https://github.com/vercel/next.js/issues/48344)
+-   [Why use the figure element?](https://forum.freecodecamp.org/t/why-use-the-figure-element/315116)
 
 ## Author
 

@@ -317,7 +317,7 @@ export default function DropdownMenu<Option extends string>({
                         ? options[focusedOptionIndex]
                         : undefined
                 }
-                className="absolute right-0 top-[130%] z-50 w-32 space-y-0.5 rounded-md bg-contrast-lowest p-1 shadow-md shadow-contrast-lower"
+                className="absolute right-0 top-[130%] z-50 w-32 space-y-0.5 rounded-md bg-contrast-lowest p-1"
                 hidden={!open}
                 onKeyDown={handleMenuKeydown}
                 ref={menuRef}

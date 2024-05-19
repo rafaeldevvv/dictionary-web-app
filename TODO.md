@@ -1,17 +1,10 @@
-- Add images from one of 
-    - [LoremFlickr](https://loremflickr.com)
-    - [Giphy](https://developers.giphy.com/docs/sdk/)
-    - [Google](https://developers.google.com/photos/library/guides/get-started)
-        - [console](https://console.cloud.google.com/apis/api/photoslibrary.googleapis.com/metrics?project=dictionary-web-app-423413)
-    - [Unsplash](https://unsplash.com/documentation#list-photos)
-    - [gettyimages](https://developers.gettyimages.com/docs/#429---too-many-requests)
-- improve responsiveness (font size)
 - add pronunciation from one of:
     - [Wordnik](https://developer.wordnik.com)
     - Oxford Dictionaries API
-    - 
-- change font menu shadow color
 - add buy me a coffee image and link in the footer
 - add links in definitions and examples
 - unwrap the icanhazdadjoke name from the cite element because it is correct semantically as the cite element is used to refer to the title of a work
+- colors
+    - https://alexbeals.com/projects/colorize/search.php?q=space
+    - https://picular.co/space
 - Add tests with testing framework like [Jest](https://jestjs.io)

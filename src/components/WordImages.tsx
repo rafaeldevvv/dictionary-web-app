@@ -77,9 +77,9 @@ export default function WordImages({
                     </ul>
                 </div>
                 <figcaption className="mx-auto max-w-sm text-center text-xs text-contrast-high">
-                    Photos of{' '}
-                    &quot;<strong className='text-contrast-highest'>{word}</strong>&quot;{' '}
-                    by {attributionLinks} on{' '}
+                    Photos of &quot;
+                    <strong className="text-contrast-highest">{word}</strong>
+                    &quot; by {attributionLinks} on{' '}
                     <Link
                         href="https://unsplash.com/?utm_source=Dictionary_Web_App&utm_medium=referral"
                         target="_blank"

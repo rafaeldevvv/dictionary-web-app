@@ -22,4 +22,4 @@ export default cache(async function getImagesForWord(
         lang: Language.English,
     });
     return data;
-})
+});

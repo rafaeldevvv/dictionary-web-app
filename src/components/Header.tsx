@@ -26,7 +26,7 @@ export default function Header({
                     alt="Dictionary Web App Logo: an open pixel-art book"
                     width="45"
                     height="45"
-                    role='img'
+                    role="img"
                 />
             </figure>
             <div className="flex items-center gap-x-[min(1rem,1vw)]">

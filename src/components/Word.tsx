@@ -9,7 +9,7 @@ import WordJoke from './WordJoke';
 export default async function Word({
     word,
     number,
-    index
+    index,
 }: {
     word: IWord;
     number: number;

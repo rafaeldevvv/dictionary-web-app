@@ -17,7 +17,7 @@ export default function WordHeader({
 
     return (
         <header className="mb-8">
-            <div className='mb-4'>
+            <div className="mb-4">
                 <div className="flex">
                     <h2
                         className="mb-1 text-[clamp(2rem,10vw,3rem)] text-contrast-highest"
@@ -37,7 +37,7 @@ export default function WordHeader({
                         {number}
                     </span>{' '}
                 </div>
-                <p className="flex items-center gap-x-2">
+                <p className="mt-2 flex items-center gap-x-2">
                     <span className="text-xl italic text-primary">
                         {phonetic}
                     </span>

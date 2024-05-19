@@ -29,10 +29,10 @@ const config: Config = {
         createThemes(
             {
                 light: {
-                    background: 'hsl(0 100% 100%)',
-                    primary: 'hsl(16, 80%, 50%)',
-                    'primary-visited': 'hsl(16, 80%, 40%)',
-                    'contrast-lowest': 'hsl(0 0% 98%)',
+                    background: 'hsl(0 0% 98%)',
+                    primary: 'hsl(208, 100%, 32%)',
+                    'primary-visited': 'hsl(208, 100%, 32%)',
+                    'contrast-lowest': 'hsl(0 0% 100%)',
                     'contrast-lower': 'hsl(0 0% 96%)',
                     'contrast-lowerish': 'hsl(0 0% 81%)',
                     'contrast-low': 'hsl(0 0% 66%)',
@@ -44,8 +44,8 @@ const config: Config = {
                 },
                 dark: {
                     background: 'hsl(0 0% 5%)',
-                    primary: 'hsl(51, 100%, 50%)',
-                    'primary-visited': 'hsl(51, 100%, 36%)',
+                    primary: 'hsl(208, 100%, 57%)',
+                    'primary-visited': 'hsl(208, 100%, 57%)',
                     'contrast-lowest': 'hsl(0 0% 6%)',
                     'contrast-lower': 'hsl(0 0% 12%)',
                     'contrast-lowerish': 'hsl(0 0% 19%)',

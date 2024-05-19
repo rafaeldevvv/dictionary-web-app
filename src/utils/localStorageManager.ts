@@ -6,6 +6,8 @@ const localStorageField = 'dictionary-web-app';
 
 let data = {} as DictionaryWebAppData;
 
+/* this function exists to prevent 
+code from executing on the server */
 function getData() {
     const mql = matchMedia('(prefers-color-scheme: dark)');
     const dark = mql.matches;
@@ -15,9 +17,9 @@ function getData() {
         localStorageData
             ? JSON.parse(localStorageData)
             : {
-                font: 'sans',
-                theme: dark ? 'dark' : 'light',
-            }
+                  font: 'sans',
+                  theme: dark ? 'dark' : 'light',
+              }
     ) as DictionaryWebAppData;
     return data;
 }

@@ -1,7 +1,7 @@
-import { Word } from "@/ts/types";
+import { Word } from '@/ts/types';
 
 export default function getAllSynonyms(words: Word[]) {
-    const synonyms = new Set<string>()
+    const synonyms = new Set<string>();
     for (const w of words) {
         for (const m of w.meanings) {
             if (m.synonyms) {
@@ -12,5 +12,5 @@ export default function getAllSynonyms(words: Word[]) {
             }
         }
     }
-    return [...synonyms]
+    return [...synonyms];
 }

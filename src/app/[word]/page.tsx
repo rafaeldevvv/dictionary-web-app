@@ -36,13 +36,14 @@ export default async function WordPage({ params }: { params: WordParams }) {
         getImagesForWord(word),
     ]);
     const images = imagesData.errors ? null : imagesData.response;
-    
+    if (imagesData.errors) console.error(imagesData.errors.join('\n'));
+
     return (
         <article>
             <h1 className="sr-only">
                 All sets of definitions for the word {word}
             </h1>
-            {(images && images.results.length > 1) && (
+            {images && images.results.length > 1 && (
                 <div className="mb-6 mt-10">
                     <WordImages word={word} imagesData={images} />
                 </div>

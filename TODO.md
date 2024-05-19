@@ -1,5 +1,4 @@
 - add links in definitions and examples
-- unwrap the icanhazdadjoke name from the cite element because it is correct semantically as the cite element is used to refer to the title of a work
 - colors
     - https://alexbeals.com/projects/colorize/search.php?q=space
     - https://picular.co/space

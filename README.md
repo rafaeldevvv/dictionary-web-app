@@ -125,6 +125,7 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 -   [Cambridge English Dictionary](https://dictionary.cambridge.org/us/dictionary/english/) - I used the word definitions pages as a reference.
 -   [Different books pixel art set - Adobe](https://stock.adobe.com/br/images/different-books-pixel-art-set-fantasy-tome-folio-collection-open-closed-textbooks-8-bit-sprite-game-development-mobile-app-isolated-vector-illustration/502502076)
 -   [Opened book with pixel art style](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Fpremium-vector%2Fopened-book-with-pixel-art-style_19580503.htm&psig=AOvVaw0Si-uM6xDpYjJ30K2eVCtg&ust=1715632198911000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNjF6vX7iIYDFQAAAAAdAAAAABAR)
+-   [Eloquent JavaScript Book](https://eloquentjavascript.net/01_values.html) - every chapter has a blockquote at the top and I used that blockquote as a referenece for the joke from icanhazdadjoke
 
 #### Other
 

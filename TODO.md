@@ -1,3 +1,4 @@
+- Add AI
 - add links in definitions and examples
 - colors
     - https://alexbeals.com/projects/colorize/search.php?q=space

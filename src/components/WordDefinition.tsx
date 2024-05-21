@@ -1,7 +1,7 @@
 import type { Definition } from '@/ts/types';
 import HomonymsList from './HomonymsList';
 
-export default function WordDefinition({
+export default async function WordDefinition({
     word,
     def,
 }: {

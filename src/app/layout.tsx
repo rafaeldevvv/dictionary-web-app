@@ -61,6 +61,7 @@ export default function RootLayout({
                     vt323.variable,
                     cedarville.variable,
                     instrument.variable,
+                    'bg-background'
                 ].join(' ')}
             >
                 <AppWrapper>{children}</AppWrapper>

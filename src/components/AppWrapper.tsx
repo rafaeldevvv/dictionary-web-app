@@ -50,7 +50,7 @@ export default function AppWrapper({
 
     return (
         <div
-            className="bg-background text-sm text-contrast-highest transition-colors md:text-base"
+            className="text-sm text-contrast-highest transition-colors md:text-base"
             id="root"
         >
             <div className="container grid min-h-screen grid-rows-[min-content_1fr_min-content]">

@@ -1,6 +1,3 @@
 - Add AI
-- add links in definitions and examples
-- colors
-    - https://alexbeals.com/projects/colorize/search.php?q=space
-    - https://picular.co/space
+- fix synonyms list, don't include links to words which are not available
 - Add tests with testing framework like [Jest](https://jestjs.io)

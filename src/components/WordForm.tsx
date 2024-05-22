@@ -40,7 +40,7 @@ export default function WordForm() {
             <Link
                 title="Go to word definition page"
                 ref={linkRef}
-                href={`/${word}`}
+                href={`/${word.toLowerCase()}`}
                 aria-label="Go to word definition page"
                 className="group absolute bottom-0 right-0 top-0 flex items-center px-4"
             >

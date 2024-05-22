@@ -1,3 +1,2 @@
 - Add AI
-- fix synonyms list, don't include links to words which are not available
 - Add tests with testing framework like [Jest](https://jestjs.io)

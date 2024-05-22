@@ -51,6 +51,7 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 -   [Unsplash Documentation](https://unsplash.com/documentation)
 -   [Postman docs](https://learning.postman.com/docs/introduction/overview/)
 -   [react-modal docs](https://reactcommunity.org/react-modal/)
+-   [Next.js App Router Docs](https://nextjs.org/docs/app)
 
 #### Packages
 
@@ -82,7 +83,7 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 -   [ChatGPT](https://chatgpt.com)
 -   [Copilot](https://www.bing.com/chat?q=Microsoft+Copilot&FORM=hpcodx)
 -   [Image Resizer.com](https://imageresizer.com)
--   [Restfox](https://restfox.dev) 
+-   [Restfox](https://restfox.dev)
 -   [Postman](https://web.postman.co) - I used the last two to test some apis.
 
 #### Stack Overflow/Exchange
@@ -99,7 +100,6 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 -   [Does a favicon have to be 32×32 or 16×16?](https://stackoverflow.com/questions/4014823/does-a-favicon-have-to-be-32×32-or-16×16)
 -   [Difference between hard wrap and soft wrap?](https://stackoverflow.com/questions/319925/difference-between-hard-wrap-and-soft-wrap)
 -   [Can't access ref.current using React and Typescript](https://stackoverflow.com/questions/72153186/cant-access-ref-current-using-react-and-typescript)
--   [Next.js App Router Docs](https://nextjs.org/docs/app)
 -   [Is it semantically correct in HTML to markup a list with only a single list item?](https://stackoverflow.com/questions/10834977/is-it-semantically-correct-in-html-to-markup-a-list-with-only-a-single-list-item)
 -   [rejected master -> master (non-fast-forward)](https://stackoverflow.com/questions/11696295/rejected-master-master-non-fast-forward)
 -   [In HTML5, should the main navigation be inside or outside the <header> element?](https://stackoverflow.com/questions/4870955/in-html5-should-the-main-navigation-be-inside-or-outside-the-header-element)
@@ -110,6 +110,7 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 -   [Make scroll bar take no space / prevent layout shift](https://stackoverflow.com/questions/21367441/make-scroll-bar-take-no-space-prevent-layout-shift)
 -   [Why would max-width not work on this?](https://stackoverflow.com/questions/14938428/why-would-max-width-not-work-on-this)
 -   [What website allows you to type in a word and it gives you the associated color?](https://graphicdesign.stackexchange.com/questions/83750/what-website-allows-you-to-type-in-a-word-and-it-gives-you-the-associated-color)
+-   [Naming convention between python backend and javascript frontend](https://stackoverflow.com/questions/46677530/naming-convention-between-python-backend-and-javascript-frontend)
 
 #### APIs
 
@@ -145,6 +146,8 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 -   [Nome de Domínio Totalmente Qualificado (FQDN): Guia Completo com Exemplos](https://kinsta.com/wp-content/uploads/2022/07/structure-of-url.png)
 -   [Failed to parse URL when fetching localhost using Server Components](https://github.com/vercel/next.js/issues/48344)
 -   [Why use the figure element?](https://forum.freecodecamp.org/t/why-use-the-figure-element/315116)
+-   [Create Accessible Hypertext Links](https://www.nysed.gov/webaccess/create-accessible-hypertext-links)
+-   [Links and Hypertext](https://webaim.org/techniques/hypertext/)
 
 ## Author
 

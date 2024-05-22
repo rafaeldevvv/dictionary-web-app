@@ -27,13 +27,14 @@ export default function AppWrapper({
         } as FontFamiliesClassnames;
     }, []);
 
+    /* get saved theme and font in localStorage */
     useEffect(() => {
         const savedOptions = storage.getWholeData();
         setTheme(savedOptions.theme);
         setFont(savedOptions.font);
     }, []);
 
-    /* synchronizes  */
+    /* synchronize the font family */
     useEffect(() => {
         const body = document.body;
         for (const fontClass in fontFamiliesClassnames) {
@@ -44,13 +45,14 @@ export default function AppWrapper({
         body.classList.add(fontFamiliesClassnames[font]);
     }, [font, fontFamiliesClassnames]);
 
+    /* synchronize the theme */
     useEffect(() => {
         document.body.setAttribute('data-theme', theme);
     }, [theme]);
 
     return (
         <div
-            className="text-sm text-contrast-highest transition-colors md:text-base"
+            className="text-contrast-highest transition-colors"
             id="root"
         >
             <div className="container grid min-h-screen grid-rows-[min-content_1fr_min-content]">

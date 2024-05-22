@@ -148,6 +148,7 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 -   [Why use the figure element?](https://forum.freecodecamp.org/t/why-use-the-figure-element/315116)
 -   [Create Accessible Hypertext Links](https://www.nysed.gov/webaccess/create-accessible-hypertext-links)
 -   [Links and Hypertext](https://webaim.org/techniques/hypertext/)
+-   [How to Write Better Git Commit Messages – A Step-By-Step Guide](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/)
 
 ## Author
 

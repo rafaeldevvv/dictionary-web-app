@@ -118,7 +118,11 @@ export default function WordImages({
                 shouldReturnFocusAfterClose
             >
                 {modalImg && (
-                    <ModalContents onClose={closeModal} img={modalImg} />
+                    <ModalContents
+                        onClose={closeModal}
+                        img={modalImg}
+                        key={modalImg.id}
+                    />
                 )}
             </Modal>
         </div>
@@ -134,7 +138,7 @@ export function ModalContents({
 }) {
     const [isImgLoading, setIsImgLoading] = useState(true);
     return (
-        <div className="mx-auto px-2 py-6">
+        <div className="mx-auto px-5 py-6 md:px-0">
             <button
                 type="button"
                 className="mb-8 ms-auto block h-10 transition-opacity hover:opacity-70"
@@ -156,6 +160,9 @@ export function ModalContents({
                         height="0"
                         className="w-full rounded-lg"
                         onLoad={() => {
+                            setIsImgLoading(false);
+                        }}
+                        onError={() => {
                             setIsImgLoading(false);
                         }}
                     />

@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function WordJoke({ joke }: { joke: string }) {
     return (
-        <figure className="my-6 flex flex-row-reverse items-center justify-end gap-x-4 rounded-lg bg-contrast-lower p-4">
+        <figure className="my-8 flex flex-row-reverse items-center justify-end gap-x-4 rounded-lg bg-contrast-lower p-4">
             <blockquote cite="https://icanhazdadjoke.com">
                 <p className="text-[clamp(.75rem,4.5vw,.85rem)]">{joke}</p>
             </blockquote>

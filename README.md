@@ -30,6 +30,7 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 -   [tailwindcss](https://tailwindcss.com)
 -   [Prettier](https://prettier.io)
 -   [Font Awesome icons in React](https://docs.fontawesome.com/web/)
+-   [jest](https://jestjs.io)
 
 ## Process
 
@@ -52,6 +53,7 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 -   [Postman docs](https://learning.postman.com/docs/introduction/overview/)
 -   [react-modal docs](https://reactcommunity.org/react-modal/)
 -   [Next.js App Router Docs](https://nextjs.org/docs/app)
+-   [Jest - Getting Started](https://jestjs.io/docs/getting-started)
 
 #### Packages
 
@@ -149,6 +151,8 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 -   [Create Accessible Hypertext Links](https://www.nysed.gov/webaccess/create-accessible-hypertext-links)
 -   [Links and Hypertext](https://webaim.org/techniques/hypertext/)
 -   [How to Write Better Git Commit Messages – A Step-By-Step Guide](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/)
+-  [Write tests. Not too many. Mostly integration.](https://kentcdodds.com/blog/write-tests)
+- [What are the advantages of using testing frameworks like Jest?](https://www.reddit.com/r/reactjs/comments/15ufk9f/what_are_the_advantages_of_using_testing/)
 
 ## Author
 

@@ -1,6 +1,7 @@
 import { Meaning } from '@/ts/types';
 import HomonymsList from './HomonymsList';
 import WordDefinition from './WordDefinition';
+import classNames from 'classnames';
 
 export default function WordMeaning({
     word,
@@ -50,7 +51,12 @@ export default function WordMeaning({
                 </div>
             )}
             {areAntonymsAvailable && (
-                <div className="mt-4">
+                <div
+                    className={classNames({
+                        'mt-4': areSynonymsAvailable,
+                        'mt-8': !areSynonymsAvailable,
+                    })}
+                >
                     <HomonymsList
                         areSynonyms={false}
                         words={meaning.antonyms!}

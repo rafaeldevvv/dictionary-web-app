@@ -33,7 +33,7 @@ const config: Config = {
                     primary: 'hsl(208, 100%, 32%)',
                     'primary-visited': 'hsl(208, 100%, 32%)',
                     'contrast-lowest': 'hsl(0 0% 100%)',
-                    'contrast-lower': 'hsl(0 0% 96%)',
+                    'contrast-lower': 'hsl(0 0% 95%)',
                     'contrast-lowerish': 'hsl(0 0% 81%)',
                     'contrast-low': 'hsl(0 0% 66%)',
                     'contrast-normal': 'hsl(0 0% 57%)',

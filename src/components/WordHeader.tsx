@@ -13,14 +13,16 @@ export default function WordHeader({
     number: number;
     headingId: string;
 }) {
-    const { phonetic, audio } = getPhoneticInfo(word);
+    const phonetics = getPhoneticInfo(word);
+
+    const isPhoneticInfoAvailable = phonetics.length !== 0;
 
     return (
         <header className="mb-8">
-            <div className="mb-4">
+            <div>
                 <div className="flex">
                     <h2
-                        className="mb-1 text-[clamp(2rem,10vw,3rem)] text-contrast-highest"
+                        className="text-[clamp(2rem,10vw,3rem)] text-contrast-highest"
                         id={headingId}
                     >
                         <a href={'#' + headingId} className="hover:underline">
@@ -37,12 +39,30 @@ export default function WordHeader({
                         {number}
                     </span>{' '}
                 </div>
-                <p className="mt-2 flex items-center gap-x-2">
-                    <span className="text-xl italic text-primary">
-                        {phonetic}
-                    </span>
-                    {audio && <WordSpeaker audioUrl={audio} />}
-                </p>
+                {isPhoneticInfoAvailable && (
+                    <figure>
+                        <figcaption className="sr-only">
+                            Pronunciations
+                        </figcaption>
+                        <ul className="flex flex-wrap gap-x-3">
+                            {phonetics.map((p, i) => {
+                                const { audio, phonetic } = p;
+                                return (
+                                    <li key={i}>
+                                        <p className="flex items-center gap-x-2 rounded border-l-2 border-contrast-lowerish bg-contrast-lower px-3 py-0.5">
+                                            <span className="text-base italic text-primary sm:text-lg">
+                                                {phonetic}
+                                            </span>
+                                            {audio && (
+                                                <WordSpeaker audioUrl={audio} />
+                                            )}
+                                        </p>
+                                    </li>
+                                );
+                            })}
+                        </ul>
+                    </figure>
+                )}
             </div>
         </header>
     );

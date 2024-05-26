@@ -117,7 +117,7 @@ export function MenuItemRadio({
 }
 
 export interface DropdownMenuProps<Option extends string> {
-    options: Option[];
+    options: ReadonlyArray<Option>;
     current: Option;
     onChange: (newValue: Option) => void;
     baseId: string;

@@ -44,7 +44,7 @@ export default function getPhoneticInfo(word: Word): PhoneticInfoPiece[] {
 
     // if there isn't complete pairs, we return an array with one item if
     // an audio or a phonetic was found
-    // if there is no audio and phonetic, the returned array if empty
+    // if there is no audio and phonetic, the returned array is empty
     if (phonetic || audio) phoneticAudioPairs.push({ phonetic, audio });
     return phoneticAudioPairs;
 }

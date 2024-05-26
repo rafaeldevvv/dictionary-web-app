@@ -7,7 +7,7 @@
  * or undefined if there isn't one.
  */
 export default function findItemIndexWithLetter(
-    strings: Array<string>,
+    strings: ReadonlyArray<string>,
     startIndex: number,
     letter: string,
 ) {

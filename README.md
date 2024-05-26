@@ -53,7 +53,8 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 -   [Postman docs](https://learning.postman.com/docs/introduction/overview/)
 -   [react-modal docs](https://reactcommunity.org/react-modal/)
 -   [Next.js App Router Docs](https://nextjs.org/docs/app)
--   [Jest - Getting Started](https://jestjs.io/docs/getting-started)
+-   [Jest Docs](https://jestjs.io/docs/getting-started)
+-   [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
 
 #### Packages
 
@@ -67,6 +68,7 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 -   [Tailwindcss Class Sorting with Prettier](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier) - Nice prettier plugin for sorting classes
 -   [unsplash-js](https://github.com/unsplash/unsplash-js) - Unsplash SDK
 -   [react-modal](https://www.npmjs.com/package/react-modal)
+-   [jest-axe](https://www.npmjs.com/package/jest-axe)
 
 #### Tools
 
@@ -87,6 +89,8 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 -   [Image Resizer.com](https://imageresizer.com)
 -   [Restfox](https://restfox.dev)
 -   [Postman](https://web.postman.co) - I used the last two to test some apis.
+-   [Thesaurus.com](https://www.thesaurus.com)
+-   [W3C Markup Validation Service](https://validator.w3.org)
 
 #### Stack Overflow/Exchange
 
@@ -113,6 +117,10 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 -   [Why would max-width not work on this?](https://stackoverflow.com/questions/14938428/why-would-max-width-not-work-on-this)
 -   [What website allows you to type in a word and it gives you the associated color?](https://graphicdesign.stackexchange.com/questions/83750/what-website-allows-you-to-type-in-a-word-and-it-gives-you-the-associated-color)
 -   [Naming convention between python backend and javascript frontend](https://stackoverflow.com/questions/46677530/naming-convention-between-python-backend-and-javascript-frontend)
+-   [What is Mocking?](https://stackoverflow.com/questions/2665812/what-is-mocking)
+-   [How can I deal with floating point number precision in JavaScript? [duplicate]](https://stackoverflow.com/questions/1458633/how-can-i-deal-with-floating-point-number-precision-in-javascript)
+-   [Is floating-point math broken?](https://stackoverflow.com/questions/588004/is-floating-point-math-broken?page=1&tab=scoredesc#tab-top)
+-   ["React does not recognize the `fetchPriority` prop on a DOM element." warning in NextJS?](https://stackoverflow.com/questions/78434162/react-does-not-recognize-the-fetchpriority-prop-on-a-dom-element-warning-in)
 
 #### APIs
 
@@ -129,6 +137,8 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 -   [Different books pixel art set - Adobe](https://stock.adobe.com/br/images/different-books-pixel-art-set-fantasy-tome-folio-collection-open-closed-textbooks-8-bit-sprite-game-development-mobile-app-isolated-vector-illustration/502502076)
 -   [Opened book with pixel art style](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Fpremium-vector%2Fopened-book-with-pixel-art-style_19580503.htm&psig=AOvVaw0Si-uM6xDpYjJ30K2eVCtg&ust=1715632198911000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNjF6vX7iIYDFQAAAAAdAAAAABAR)
 -   [Eloquent JavaScript Book](https://eloquentjavascript.net/01_values.html) - every chapter has a blockquote at the top and I used that blockquote as a referenece for the joke from icanhazdadjoke
+-   [Next.js + Jest](https://github.com/vercel/next.js/tree/canary/examples/with-jest)
+-   [open-sauced github repo](https://github.com/open-sauced/open-sauced) - used its tests as a reference for how to write tests
 
 #### Other
 
@@ -151,8 +161,14 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 -   [Create Accessible Hypertext Links](https://www.nysed.gov/webaccess/create-accessible-hypertext-links)
 -   [Links and Hypertext](https://webaim.org/techniques/hypertext/)
 -   [How to Write Better Git Commit Messages – A Step-By-Step Guide](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/)
--  [Write tests. Not too many. Mostly integration.](https://kentcdodds.com/blog/write-tests)
-- [What are the advantages of using testing frameworks like Jest?](https://www.reddit.com/r/reactjs/comments/15ufk9f/what_are_the_advantages_of_using_testing/)
+-   [Write tests. Not too many. Mostly integration.](https://kentcdodds.com/blog/write-tests)
+-   [What are the advantages of using testing frameworks like Jest?](https://www.reddit.com/r/reactjs/comments/15ufk9f/what_are_the_advantages_of_using_testing/)
+-   [What is code coverage?](https://www.atlassian.com/continuous-delivery/software-testing/code-coverage)
+-   [Testing with Jest Snapshots: First Impressions](https://benmccormick.org/2016/09/19/074100.html)
+-   [React Testing Library](https://github.com/testing-library/react-testing-library)
+-   [What's the difference of Jest's `describe()` and `test()` functions?](https://www.reddit.com/r/javascript/comments/9sy33o/whats_the_difference_of_jests_describe_and_test/#:~:text=describe(name%2C%20fn)%20creates,reads%20as%20a%20natural%20sentence.)
+-   [How to ignore or skip some test files ?](https://github.com/jestjs/jest/issues/1815)
+-   [Experienced Devs: How should I be testing my components? What makes a test meaningful when creating React components?](https://www.reddit.com/r/reactjs/comments/17cwtbr/experienced_devs_how_should_i_be_testing_my/)
 
 ## Author
 

@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
+import Link from 'next/link';
 
 export default function ExternalLink({
     href,
@@ -11,9 +12,9 @@ export default function ExternalLink({
     className?: string;
 }) {
     return (
-        <a href={href} target="_blank" className={className}>
+        <Link href={href} target="_blank" className={className}>
             {children} <span className="sr-only">(Opens in new tab)</span>
             <FontAwesomeIcon icon={faUpRightFromSquare} size="sm" />
-        </a>
+        </Link>
     );
 }

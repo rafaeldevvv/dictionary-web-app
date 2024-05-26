@@ -8,7 +8,7 @@ export interface HeaderProps {
     font: FontFamilies;
     onChangeFont: (newFont: FontFamilies) => void;
     onChangeTheme: (newTheme: Themes) => void;
-    fontFamiliesClassnames: FontFamiliesClassnames;
+    fontFamiliesClassnames?: FontFamiliesClassnames;
 }
 
 export default function Header({

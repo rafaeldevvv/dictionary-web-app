@@ -21,7 +21,7 @@ export interface Word {
 }
 
 export interface Phonetic {
-    text: string;
+    text?: string;
     audio?: string;
     sourceUrl?: string;
     license?: License;

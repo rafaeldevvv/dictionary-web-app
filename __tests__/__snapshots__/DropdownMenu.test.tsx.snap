@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MenuToggle renders correctly: MenuToggle 1`] = `
+<button
+  aria-controls="a"
+  aria-expanded={true}
+  aria-haspopup="menu"
+  aria-label="a"
+  className="rounded-xl px-[clamp(.5rem,4vw,1rem)] py-1 capitalize hover:bg-contrast-lower focus-visible:bg-contrast-lower"
+  onClick={[Function]}
+  onKeyDown={[Function]}
+  type="button"
+>
+  <span
+    className="a"
+  >
+    Test
+  </span>
+  <svg
+    aria-hidden="true"
+    className="svg-inline--fa fa-chevron-down ml-3 text-primary transition-transform -rotate-180"
+    data-icon="chevron-down"
+    data-prefix="fas"
+    focusable="false"
+    role="img"
+    style={{}}
+    viewBox="0 0 512 512"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
+      fill="currentColor"
+      style={{}}
+    />
+  </svg>
+</button>
+`;

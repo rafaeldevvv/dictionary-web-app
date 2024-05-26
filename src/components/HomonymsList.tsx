@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import classNames from 'classnames';
 import getWord from '@/utils/getWord';
+import 'server-only';
 
 export default async function HomonymsList({
     areSynonyms,

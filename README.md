@@ -24,11 +24,17 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 
 ### Screenshots
 
-![Homepage](./screenshots/homepage.png)
-![water page, first screenshot](./screenshots/water-page.png)
-![water page, second screenshot](./screenshots/water-page-2.png)
-![water page, third screenshot](./screenshots/water-page-3.png)
-![water page, fourth screenshot](./screenshots/water-page-4.png)
+![light theme Homepage](./screenshots/homepage.png)
+![light theme water page, first screenshot](./screenshots/water-page.png)
+![light theme water page, second screenshot](./screenshots/water-page-2.png)
+![light theme water page, third screenshot](./screenshots/water-page-3.png)
+![light theme water page, fourth screenshot](./screenshots/water-page-4.png)
+
+![dark theme Homepage](./screenshots/homepage.png)
+![dark theme water page, first screenshot](./screenshots/dark-theme-water-page.png)
+![dark theme water page, second screenshot](./screenshots/dark-theme-water-page-2.png)
+![dark theme water page, third screenshot](./screenshots/dark-theme-water-page-3.png)
+![dark theme water page, fourth screenshot](./screenshots/dark-theme-water-page-4.png)
 
 ### Links
 

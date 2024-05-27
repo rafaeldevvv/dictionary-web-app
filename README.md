@@ -29,12 +29,14 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 ![light theme water page, second screenshot](./screenshots/water-page-2.png)
 ![light theme water page, third screenshot](./screenshots/water-page-3.png)
 ![light theme water page, fourth screenshot](./screenshots/water-page-4.png)
+![light theme modal](./screenshots/light-theme-modal.png)
 
 ![dark theme Homepage](./screenshots/homepage.png)
 ![dark theme water page, first screenshot](./screenshots/dark-theme-water-page.png)
 ![dark theme water page, second screenshot](./screenshots/dark-theme-water-page-2.png)
 ![dark theme water page, third screenshot](./screenshots/dark-theme-water-page-3.png)
 ![dark theme water page, fourth screenshot](./screenshots/dark-theme-water-page-4.png)
+![dark theme modal](./screenshots/dark-theme-modal.png)
 
 ### Links
 

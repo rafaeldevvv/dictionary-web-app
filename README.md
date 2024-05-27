@@ -1,6 +1,6 @@
 # Dictionary Web App
 
-This is a rather simple dictionary web app powered by [the Free Dictionary API](https://dictionaryapi.dev)
+This is a rather simple dictionary web app powered by [the Free Dictionary API](https://dictionaryapi.dev), [Unsplash API](https://unsplash.com/developers) and [icanhazdadjoke API](https://icanhazdadjoke.com).
 
 ## Table of Contents
 
@@ -10,12 +10,25 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
     -   [Tools Used](#tools-used)
 -   [Process](#process)
     -   [Useful Resources](#useful-resources)
+        -   [Docs](#docs)
+        -   [Packages](#packages)
+        -   [Tools](#tools)
+        -   [Stack Overflow/Exchange Questions](#stack-overflowexchange)
+        -   [APIs](#apis)
+        -   [References](#references)
+        -   [Other](#other)
 -   [Author](#author)
 -   [Donate](#donate)
 
 ## Overview
 
 ### Screenshots
+
+![Homepage](./screenshots/homepage.png)
+![water page, first screenshot](./screenshots/water-page.png)
+![water page, second screenshot](./screenshots/water-page-2.png)
+![water page, third screenshot](./screenshots/water-page-3.png)
+![water page, fourth screenshot](./screenshots/water-page-4.png)
 
 ### Links
 
@@ -69,6 +82,7 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 -   [unsplash-js](https://github.com/unsplash/unsplash-js) - Unsplash SDK
 -   [react-modal](https://www.npmjs.com/package/react-modal)
 -   [jest-axe](https://www.npmjs.com/package/jest-axe)
+-   [react-test-renderer](https://www.npmjs.com/package/react-test-renderer)
 
 #### Tools
 
@@ -166,7 +180,7 @@ This is a rather simple dictionary web app powered by [the Free Dictionary API](
 -   [What is code coverage?](https://www.atlassian.com/continuous-delivery/software-testing/code-coverage)
 -   [Testing with Jest Snapshots: First Impressions](https://benmccormick.org/2016/09/19/074100.html)
 -   [React Testing Library](https://github.com/testing-library/react-testing-library)
--   [What's the difference of Jest's `describe()` and `test()` functions?](https://www.reddit.com/r/javascript/comments/9sy33o/whats_the_difference_of_jests_describe_and_test/#:~:text=describe(name%2C%20fn)%20creates,reads%20as%20a%20natural%20sentence.)
+-   [What's the difference of Jest's `describe()` and `test()` functions?](<https://www.reddit.com/r/javascript/comments/9sy33o/whats_the_difference_of_jests_describe_and_test/#:~:text=describe(name%2C%20fn)%20creates,reads%20as%20a%20natural%20sentence.>)
 -   [How to ignore or skip some test files ?](https://github.com/jestjs/jest/issues/1815)
 -   [Experienced Devs: How should I be testing my components? What makes a test meaningful when creating React components?](https://www.reddit.com/r/reactjs/comments/17cwtbr/experienced_devs_how_should_i_be_testing_my/)
 
